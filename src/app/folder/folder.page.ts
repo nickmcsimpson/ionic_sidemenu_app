@@ -15,4 +15,8 @@ export class FolderPage implements OnInit {
     this.folder = this.activatedRoute.snapshot.paramMap.get('id');
   }
 
+  sayHello() {
+    console.log('Hello from the ' + this.folder + ' page!');
+  }
+
 }
