@@ -74,7 +74,76 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  // Kansas Jayhawks
+  --ion-color-ku: #014fb5;
+  --ion-color-ku-rgb: 1,79,181;
+  --ion-color-ku-contrast: #ffffff;
+  --ion-color-ku-contrast-rgb: 255,255,255;
+  --ion-color-ku-shade: #01469f;
+  --ion-color-ku-tint: #1a61bc;
+
+  // Vegas Golden Knights
+  --ion-color-lvgk: #bc9b55;
+  --ion-color-lvgk-rgb: 188,155,85;
+  --ion-color-lvgk-contrast: #000000;
+  --ion-color-lvgk-contrast-rgb: 0,0,0;
+  --ion-color-lvgk-shade: #a5884b;
+  --ion-color-lvgk-tint: #c3a566;
+
+  // St Louis Blues
+  --ion-color-slb: #1a4d9d;
+  --ion-color-slb-rgb: 26,77,157;
+  --ion-color-slb-contrast: #ffffff;
+  --ion-color-slb-contrast-rgb: 255,255,255;
+  --ion-color-slb-shade: #17448a;
+  --ion-color-slb-tint: #315fa7;
+
+  // Oregon Ducks
+  --ion-color-ore: #0c3e29;
+  --ion-color-ore-rgb: 12,62,41;
+  --ion-color-ore-contrast: #ffffff;
+  --ion-color-ore-contrast-rgb: 255,255,255;
+  --ion-color-ore-shade: #0b3724;
+  --ion-color-ore-tint: #24513e;
 }
+
+.ion-color-ku {
+  --ion-color-base: var(--ion-color-ku);
+  --ion-color-base-rgb: var(--ion-color-ku-rgb);
+  --ion-color-contrast: var(--ion-color-ku-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-ku-contrast-rgb);
+  --ion-color-shade: var(--ion-color-ku-shade);
+  --ion-color-tint: var(--ion-color-ku-tint);
+}
+
+.ion-color-lvgk {
+  --ion-color-base: var(--ion-color-lvgk);
+  --ion-color-base-rgb: var(--ion-color-lvgk-rgb);
+  --ion-color-contrast: var(--ion-color-lvgk-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-lvgk-contrast-rgb);
+  --ion-color-shade: var(--ion-color-lvgk-shade);
+  --ion-color-tint: var(--ion-color-lvgk-tint);
+}
+
+.ion-color-slb {
+  --ion-color-base: var(--ion-color-slb);
+  --ion-color-base-rgb: var(--ion-color-slb-rgb);
+  --ion-color-contrast: var(--ion-color-slb-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-slb-contrast-rgb);
+  --ion-color-shade: var(--ion-color-slb-shade);
+  --ion-color-tint: var(--ion-color-slb-tint);
+}
+
+.ion-color-ore {
+  --ion-color-base: var(--ion-color-ore);
+  --ion-color-base-rgb: var(--ion-color-ore-rgb);
+  --ion-color-contrast: var(--ion-color-ore-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-ore-contrast-rgb);
+  --ion-color-shade: var(--ion-color-ore-shade);
+  --ion-color-tint: var(--ion-color-ore-tint);
+}
+
 
 @media (prefers-color-scheme: dark) {
   /*

@@ -6,6 +6,10 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+// import { GamePage } from './game/game.page';
+// import { TeamsPage } from './teams/teams.page';
+// import { TournamentPage } from './tournament/tournament.page';
+// import { TeamDetailPage } from './team-detail/team-detail.page';
 
 @NgModule({
   declarations: [AppComponent],
