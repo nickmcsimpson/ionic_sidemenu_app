@@ -2,6 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { Game, Standing, Team, TournamentData } from 'src/app/services/tournaments.service';
 
 import * as _ from 'lodash';
+import * as moment from 'moment';
 
 @Component({
   selector: 'app-team-detail',
@@ -13,8 +14,11 @@ export class DetailComponent implements OnInit {
   @Input() tournamentData: TournamentData;
   public teamStanding: Standing;
   public games: any[];
+  public allGames: any[];
+  public dateFilter: string; // I don't like this because it's hard to tell where to click on Android
+  public useDateFilter: boolean = false;
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
     // Filter team data from tourney info
@@ -34,6 +38,7 @@ export class DetailComponent implements OnInit {
                     }
                   })
                   .value();
+    this.allGames = this.games;
     this.teamStanding = _.find(this.tournamentData.standings, { 'teamId': this.team.id }) as Standing;
   }
 
@@ -46,6 +51,15 @@ export class DetailComponent implements OnInit {
     } else {
       return "";
     }
+  }
+
+  dateChanged() {
+    if (this.useDateFilter) {
+      this.games = _.filter(this.allGames, g => moment(g.time).isSame(this.dateFilter, 'day'));
+    } else {
+      this.games = this.allGames;
+    }
+    
   }
 
 }
