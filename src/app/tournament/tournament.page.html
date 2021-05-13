@@ -4,22 +4,20 @@
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>Tournaments</ion-title>
+    <ion-buttons slot="end">
+      <ion-button [routerLink]="['/teams/My Teams']">
+        <ion-icon name="home"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-list>
-    <!-- <ion-button *ngFor="let t of teams; let i = index" expand="block" 
-      [routerLink]="['/team-home', t.id]"
-      color='{{t.color}}'
-      >
-     {{ t.name }}
-    </ion-button> -->
-    <ion-button *ngFor="let tmnt of tournaments; let i = index"
-    expand="block" [routerLink]="['/teams/', tmnt.id]">
-    {{ tmnt.name }}
-    </ion-button>
-    
+    <ion-item *ngFor="let tmnt of tournaments; let i = index"
+    [routerLink]="['/teams/', tmnt.id]">
+      <ion-label class="ion-text-center">{{ tmnt.name }}</ion-label>
+    </ion-item>    
   </ion-list>
 
 </ion-content>

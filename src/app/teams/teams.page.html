@@ -1,9 +1,15 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-buttons slot="start">
-      <ion-menu-button></ion-menu-button>
+      <ion-menu-button *ngIf="!(teams && teams.length > 0)"></ion-menu-button>
+      <ion-back-button *ngIf="teams && teams.length > 0"></ion-back-button>
     </ion-buttons>
     <ion-title>{{ title }}</ion-title>
+    <ion-buttons slot="end">
+      <ion-button [routerLink]="['/teams/My Teams']">
+        <ion-icon name="home"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
@@ -23,13 +29,12 @@
   </div>
 
   <ion-list *ngIf="teams && teams.length > 0">
-    <ion-button *ngFor="let t of teams; let i = index" expand="block" 
-      [routerLink]="['/tournaments', tournament.id, 'team-home', t.id]"
-      color='{{t.color ? t.color : "dark"}}'
-      >
-     {{ t.name }}
-    </ion-button>
-    
+    <ion-list>
+      <ion-item *ngFor="let t of teams; let i = index"
+      [routerLink]="['/tournaments', tournament.id, 'team-home', t.id]">
+        <ion-label class="ion-text-center">{{ t.name }}</ion-label>
+      </ion-item>    
+    </ion-list>    
   </ion-list>
 
   

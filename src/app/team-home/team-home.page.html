@@ -4,9 +4,14 @@
       <ion-back-button></ion-back-button>
     </ion-buttons>
     <ion-title>{{ team ? team.name : "loading..." }}</ion-title>
+    <ion-buttons slot="end">
+      <ion-button [routerLink]="['/teams/My Teams']">
+        <ion-icon name="home"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
   <ion-toolbar>
-    <ion-segment (ionChange)="segmentChanged($event)" value="details" slot="end">
+    <ion-segment (ionChange)="segmentChanged($event)" value="details">
       <ion-segment-button value="details">
         Details
       </ion-segment-button>
@@ -19,21 +24,6 @@
 <ion-content>
   <app-team-detail *ngIf="segment == 'details'" [team]="team"></app-team-detail>
   <app-team-standing *ngIf="segment == 'standings'" [standing]="standing"></app-team-standing>
-  <ion-toolbar slot="bottom">
-    
-  </ion-toolbar>
-  <!-- <ion-tabs>
-    <ion-tab-bar slot="bottom">
-      <ion-tab-button tab="details">
-        <ion-icon name="basketball"></ion-icon>
-        <ion-label>Details</ion-label>
-      </ion-tab-button>
-      [routerLink]="['/team-home/', team.id, 'standings']" [queryParams]="{id: team.id}"
-      <ion-tab-button tab="standings">
-        <ion-icon name="podium"></ion-icon>
-        <ion-label>Standings</ion-label>
-      </ion-tab-button>
-    </ion-tab-bar>
-  </ion-tabs> -->
+
 </ion-content>
 
