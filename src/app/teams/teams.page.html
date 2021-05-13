@@ -20,20 +20,43 @@
     </ion-toolbar>
   </ion-header>
 
-  <div *ngIf="teams && teams.length == 0 && title == 'My Teams'">
-    <p>You are not following any teams.</p>
-    <p>First select a tournament, then find a team to follow.</p>
-    <ion-button expand='full' [routerLink]="['/tournament']">
+  <div *ngIf="!isTournament">
+    <div *ngIf="favorites && favorites.length == 0">
+      <p>You are not following any teams.</p>
+      <p>First select a tournament, then find a team to follow.</p>
+    </div>
+    <div *ngIf="favorites && favorites.length > 0">
+      <ion-list>
+        <ion-list-header color="secondary">
+          <ion-label>Followed Teams</ion-label>
+        </ion-list-header>
+        <ion-item *ngFor="let item of favorites"
+        [routerLink]="['/tournaments', item.tournamentId, 'team-home', item.team.id]">
+          <ion-icon name="star" slot="end"></ion-icon>
+          <ion-label class="ion-text-wrap">
+            <ion-text>{{ item.team.name }}</ion-text>
+            <p>{{ item.tournamentName }}</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+    </div>
+    <ion-button expand='full' fill='clear' [routerLink]="['/tournament']">
+      <ion-icon name='search' slot='end'></ion-icon>
       Find a Tournament
     </ion-button>
   </div>
-
-  <ion-list *ngIf="teams && teams.length > 0">
-    <ion-list>
-      <ion-item *ngFor="let t of teams; let i = index"
-      [routerLink]="['/tournaments', tournament.id, 'team-home', t.id]">
-        <ion-label class="ion-text-center">{{ t.name }}</ion-label>
-      </ion-item>    
+  
+  <ion-list *ngIf="isTournament">
+    <ion-list *ngIf="teams && teams.length > 0">
+      <!-- Bare list of all teams before organizing
+          -->
+      <ion-item-group *ngFor="let division of allTeamDivisions">
+        <ion-item-divider color="secondary">{{ division.divisionName }}</ion-item-divider>
+          <ion-item *ngFor="let t of division.divisionTeams"
+          [routerLink]="['/tournaments', tournament.id, 'team-home', t.id]">
+            <ion-label class="ion-text-center">{{ t.name }}</ion-label>
+          </ion-item> 
+      </ion-item-group>
     </ion-list>    
   </ion-list>
 
