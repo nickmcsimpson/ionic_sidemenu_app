@@ -7,13 +7,13 @@ import { Tournament, TournamentsService } from '../services/tournaments.service'
   styleUrls: ['./tournament.page.scss'],
 })
 export class TournamentPage implements OnInit {
-  public tournaments: any;
+  public tournaments: Tournament[];
 
   constructor(private tournamentService: TournamentsService) { }
 
   ngOnInit() {
     this.tournamentService.getTournaments().subscribe(
-      (data: Array<Tournament>) => this.tournaments = data
+      (data: Tournament[]) => this.tournaments = data
     );
   }
 

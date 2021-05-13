@@ -4,7 +4,7 @@
     Led by coach {{team.coach}}, this team will look to prevail in the {{ team.division }} division against their rivals
   </p>
   <ion-list *ngIf="games">
-    <ion-item *ngFor="let game of games">
+    <ion-item *ngFor="let game of games" [routerLink]="['/tournaments', tournamentData.tournament.id, 'game', game.gameId]">
       {{game.opponent}}
     </ion-item>
   </ion-list>
