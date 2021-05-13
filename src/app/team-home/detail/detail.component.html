@@ -1,4 +1,11 @@
-<h3>{{team.name}}</h3>
-<p>
-  Led by coach {{team.coach}}, this team will look to prevail in the {{ team.division }} division against their rivals
-</p>
+<ion-content>
+  <h3>{{team.name}}</h3>
+  <p>
+    Led by coach {{team.coach}}, this team will look to prevail in the {{ team.division }} division against their rivals
+  </p>
+  <ion-list *ngIf="games">
+    <ion-item *ngFor="let game of games">
+      {{game.opponent}}
+    </ion-item>
+  </ion-list>
+</ion-content>

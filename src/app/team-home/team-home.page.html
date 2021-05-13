@@ -3,7 +3,7 @@
     <ion-buttons slot="start">
       <ion-back-button></ion-back-button>
     </ion-buttons>
-    <ion-title>{{ team ? team.name : "loading..." }}</ion-title>
+    <ion-title>{{ tournamentData ? tournamentData.tournament.name : '' }} - {{ team ? team.name : '' }}</ion-title>
     <ion-buttons slot="end">
       <ion-button [routerLink]="['/teams/My Teams']">
         <ion-icon name="home"></ion-icon>
@@ -22,7 +22,7 @@
   </ion-toolbar>
 </ion-header>
 <ion-content>
-  <app-team-detail *ngIf="segment == 'details'" [team]="team"></app-team-detail>
+  <app-team-detail *ngIf="segment == 'details'" [team]="team" [tournamentData]="tournamentData"></app-team-detail>
   <app-team-standing *ngIf="segment == 'standings'" [standing]="standing"></app-team-standing>
 
 </ion-content>

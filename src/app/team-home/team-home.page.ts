@@ -12,6 +12,7 @@ export class TeamHomePage implements OnInit {
   public team: Team;
   public standing: Standing;
   public segment: string;
+  public tournamentData: TournamentData;
 
   constructor(private activatedRoute: ActivatedRoute,
     private tournamentsService: TournamentsService, 
@@ -32,6 +33,7 @@ export class TeamHomePage implements OnInit {
     await loading.present();
     
     this.tournamentsService.getTournamentData(tournament_id).subscribe((data: TournamentData) => {
+      this.tournamentData = data;
       this.team = data.teams.find(team => team.id == team_id);
       this.standing = data.standings.find(standing => standing.teamId == team_id);
       this.segment = 'details'; // Don't try to load details until this is finished
