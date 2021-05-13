@@ -3,23 +3,21 @@
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>{{ teams }}</ion-title>
-  </ion-toolbar>
-  <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-back-button></ion-back-button>
-    </ion-buttons>
     <ion-title>Tournaments</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-list>
-    <ion-button expand="block" [routerLink]="['/teams/March Madness']">
-    March Madness Tournament
-    </ion-button>
-    <ion-button expand="block" [routerLink]="['/teams/Stanley Cup']">
-    Stanley Cup
+    <!-- <ion-button *ngFor="let t of teams; let i = index" expand="block" 
+      [routerLink]="['/team-home', t.id]"
+      color='{{t.color}}'
+      >
+     {{ t.name }}
+    </ion-button> -->
+    <ion-button *ngFor="let tmnt of tournaments; let i = index"
+    expand="block" [routerLink]="['/teams/', tmnt.id]">
+    {{ tmnt.name }}
     </ion-button>
     
   </ion-list>

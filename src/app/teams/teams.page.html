@@ -3,18 +3,18 @@
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>{{ teams_identifier }}</ion-title>
+    <ion-title>{{ title }}</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">{{ teams_identifier }}</ion-title>
+      <ion-title size="large">{{ title }}</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <div *ngIf="teams.length == 0 && teams_identifier == 'My Teams'">
+  <div *ngIf="teams && teams.length == 0 && title == 'My Teams'">
     <p>You are not following any teams.</p>
     <p>First select a tournament, then find a team to follow.</p>
     <ion-button expand='full' [routerLink]="['/tournament']">
@@ -22,10 +22,10 @@
     </ion-button>
   </div>
 
-  <ion-list *ngIf="teams.length > 0">
+  <ion-list *ngIf="teams && teams.length > 0">
     <ion-button *ngFor="let t of teams; let i = index" expand="block" 
-      [routerLink]="['/team-detail', t.id]"
-      color='{{t.color}}'
+      [routerLink]="['/tournaments', tournament.id, 'team-home', t.id]"
+      color='{{t.color ? t.color : "dark"}}'
       >
      {{ t.name }}
     </ion-button>
