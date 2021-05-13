@@ -1,3 +1,6 @@
-<p>
-  standing works!
-</p>
+<p><strong>Division:</strong> {{standing.division}}</p>
+<p><strong>Record:</strong> {{standing.wins}}-{{standing.losses}}</p>
+<p><strong>Win Percentage:</strong> {{standing.winningPct}}</p>
+<h3>Scoring <span [style.color]="standing.pointsDiff > 0 ? 'green' : 'red'">{{ standing.pointsDiff }}</span></h3>
+<p><strong>Points:</strong> {{standing.pointsFor}}</p>
+<p><strong>Allowed:</strong> {{standing.pointsAgainst}}</p>

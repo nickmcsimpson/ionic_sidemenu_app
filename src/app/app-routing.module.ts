@@ -11,10 +11,6 @@ const routes: Routes = [
     path: 'teams/:id',
     loadChildren: () => import('./teams/teams.module').then( m => m.TeamsPageModule)
   },
-  // {
-  //   path: 'team-home/:id/details',
-  //   loadChildren: () => import('./team-home/team-detail/team-detail.module').then( m => m.TeamDetailPageModule)
-  // },
   {
     path: 'game',
     loadChildren: () => import('./game/game.module').then( m => m.GamePageModule)
@@ -23,10 +19,6 @@ const routes: Routes = [
     path: 'tournament',
     loadChildren: () => import('./tournament/tournament.module').then( m => m.TournamentPageModule)
   },
-  // {
-  //   path: 'team-home/:id/standings',
-  //   loadChildren: () => import('./team-home/standings/standings.module').then( m => m.StandingsPageModule)
-  // },
   {
     path: 'tournaments/:tournament_id/team-home/:team_id',
     loadChildren: () => import('./team-home/team-home.module').then( m => m.TeamHomePageModule)

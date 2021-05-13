@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Team } from 'src/app/services/tournaments.service';
+import { Standing } from 'src/app/services/tournaments.service';
 
 @Component({
   selector: 'app-team-standing',
@@ -7,7 +7,7 @@ import { Team } from 'src/app/services/tournaments.service';
   styleUrls: ['./standing.component.scss'],
 })
 export class StandingComponent implements OnInit {
-  @Input() team: Team;
+  @Input() standing: Standing;
 
   constructor() { }
 

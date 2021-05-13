@@ -1,11 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { LoadingController, NavController } from '@ionic/angular';
-import { Team, TournamentData, TournamentsService } from '../services/tournaments.service';
-// import { Team, TeamsService } from '../services/teams.service';
-// import { StandingsPage } from './standings/standings.page';
-// import { TeamDetailPage } from './team-detail/team-detail.page';
-import { TeamService } from './team-home.service';
+import { Standing, Team, TournamentData, TournamentsService } from '../services/tournaments.service';
 
 @Component({
   selector: 'app-team-home',
@@ -13,13 +9,11 @@ import { TeamService } from './team-home.service';
   styleUrls: ['./team-home.page.scss'],
 })
 export class TeamHomePage implements OnInit {
-  // public teamDetailTab = TeamDetailPage;
-  // public standingsTab = StandingsPage;
   public team: Team;
+  public standing: Standing;
   public segment: string;
 
-  constructor(private activatedRoute: ActivatedRoute, 
-    private teamService: TeamService, 
+  constructor(private activatedRoute: ActivatedRoute,
     private tournamentsService: TournamentsService, 
     private loadingController: LoadingController) { }
     
@@ -38,8 +32,8 @@ export class TeamHomePage implements OnInit {
     await loading.present();
     
     this.tournamentsService.getTournamentData(tournament_id).subscribe((data: TournamentData) => {
-      this.teamService.setTeam(data.teams.find(team => team.id == team_id));
-      this.team = this.teamService.getTeam();
+      this.team = data.teams.find(team => team.id == team_id);
+      this.standing = data.standings.find(standing => standing.teamId == team_id);
       this.segment = 'details'; // Don't try to load details until this is finished
       loading.dismiss();
     });
