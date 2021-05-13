@@ -10,12 +10,21 @@
           <!-- Placeholder -->
         </ion-col>
       </ion-row>
-      <ion-toggle [(ngModel)]="useDateFilter" slot="start" (ionChange)="dateChanged()"></ion-toggle>
-      <ion-item>
-        <ion-label>Date Filter:</ion-label>
-        <ion-datetime displayFormat="M/D/YYYY" pickerFormat="M/D/YYYY" 
-        [(ngModel)]="dateFilter" (ionChange)="dateChanged()" [(disabled)]="!useDateFilter"></ion-datetime>
-      </ion-item>
+      <ion-row>
+        <ion-col size="">
+          <ion-item>
+            <ion-toggle [(ngModel)]="useDateFilter" slot="start" (ionChange)="dateChanged()"></ion-toggle>
+          </ion-item>          
+        </ion-col>
+        <ion-col size="8">
+          <ion-item>
+            <ion-label>Date Filter:</ion-label>
+            <ion-datetime displayFormat="M/D/YYYY" pickerFormat="M/D/YYYY" 
+            [(ngModel)]="dateFilter" (ionChange)="dateChanged()" [(disabled)]="!useDateFilter"></ion-datetime>
+          </ion-item>
+        </ion-col>
+      </ion-row>    
+      
     </ion-card-content>
   </ion-card>
 
