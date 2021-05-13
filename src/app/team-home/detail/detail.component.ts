@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Team, TournamentData } from 'src/app/services/tournaments.service';
+import { Game, Standing, Team, TournamentData } from 'src/app/services/tournaments.service';
 
 import * as _ from 'lodash';
 
@@ -11,6 +11,7 @@ import * as _ from 'lodash';
 export class DetailComponent implements OnInit {
   @Input() team: Team;
   @Input() tournamentData: TournamentData;
+  public teamStanding: Standing;
   public games: any[];
 
   constructor() { }
@@ -18,8 +19,8 @@ export class DetailComponent implements OnInit {
   ngOnInit() {
     // Filter team data from tourney info
     this.games = _.chain(this.tournamentData.games)
-                  .filter(g => g.team1Id === this.team.id || g.team2Id === this.team.id)
-                  .map(g => {
+                  .filter((g: Game) => g.team1Id === this.team.id || g.team2Id === this.team.id)
+                  .map((g: Game) => {
                     let isTeam1 = (g.team1Id === this.team.id);
                     let opponentname = isTeam1 ? g.team2 : g.team1;
                     let scoreDisplay = this.getScoreDisplay(isTeam1, g.team1Score, g.team2Score);
@@ -33,6 +34,7 @@ export class DetailComponent implements OnInit {
                     }
                   })
                   .value();
+    this.teamStanding = _.find(this.tournamentData.standings, { 'teamId': this.team.id }) as Standing;
   }
 
   getScoreDisplay(isTeam1, team1Score, team2Score) {

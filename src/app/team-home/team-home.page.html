@@ -23,7 +23,7 @@
 </ion-header>
 <ion-content>
   <app-team-detail *ngIf="segment == 'details'" [team]="team" [tournamentData]="tournamentData"></app-team-detail>
-  <app-team-standing *ngIf="segment == 'standings'" [standing]="standing"></app-team-standing>
+  <app-team-standing *ngIf="segment == 'standings'" [standing]="standing" [team]="team" [tournamentData]="tournamentData"></app-team-standing>
 
 </ion-content>
 

@@ -1,6 +1,125 @@
-<p><strong>Division:</strong> {{standing.division}}</p>
-<p><strong>Record:</strong> {{standing.wins}}-{{standing.losses}}</p>
-<p><strong>Win Percentage:</strong> {{standing.winningPct}}</p>
-<h3>Scoring <span [style.color]="standing.pointsDiff > 0 ? 'green' : 'red'">{{ standing.pointsDiff }}</span></h3>
-<p><strong>Points:</strong> {{standing.pointsFor}}</p>
-<p><strong>Allowed:</strong> {{standing.pointsAgainst}}</p>
+<ion-card>
+    <ion-card-header color="primary">
+        <ion-grid>
+            <ion-row>
+                <ion-col size="10">
+                    {{ team.name }}
+                </ion-col>
+                <ion-col size="2">
+                    {{ teamRank }}
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </ion-card-header>
+    <ion-card-content>
+        <ion-grid>
+            <ion-row>
+                <ion-col>
+                    <h3>Division:</h3>
+                </ion-col>
+                <ion-col>
+                    {{ standing.division }}
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <h3>Record:</h3>
+                </ion-col>
+                <ion-col>
+                    {{ standing.wins }}-{{ standing.losses }}
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <h3>Win Percentage:</h3> 
+                </ion-col>
+                <ion-col>
+                    {{ standing.winningPct }}
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <h3>Scoring</h3>
+                </ion-col>
+                <ion-col>
+                    <span [style.color]="standing.pointsDiff > 0 ? 'green' : 'red'">{{  standing.pointsDiff }}</span>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <h3>Points:</h3>
+                </ion-col>
+                <ion-col>
+                    {{ standing.pointsFor }}
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <h3>Allowed:</h3>
+                </ion-col>
+                <ion-col>
+                    {{ standing.pointsAgainst }}
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </ion-card-content>
+</ion-card>
+<ion-list>
+    <ion-item-group>
+        <ion-item-divider color="secondary">
+            {{ standings.divisionName }}
+        </ion-item-divider>
+        <ion-item *ngFor="let team of standings.divisionStandings" [routerLink]="['/tournaments', tournamentData.tournament.id, 'team-detail', team.id]">
+            <ion-grid>
+                <ion-row>
+                    <ion-col size='12'>
+                        <ion-text color='primary'>
+                            <h3>{{ team.teamName }}</h3>
+                        </ion-text>
+                    </ion-col>
+                </ion-row>
+                <ion-row>
+                    <ion-col>
+                        <h4>Wins</h4>
+                    </ion-col>
+                    <ion-col>
+                        <h4>Losses</h4>
+                    </ion-col>
+                    <ion-col>
+                        <h4>Pct</h4>
+                    </ion-col>
+                    <ion-col>
+                        <h4>PF</h4>
+                    </ion-col>
+                    <ion-col>
+                        <h4>PA</h4>
+                    </ion-col>
+                    <ion-col>
+                        <h4>Diff</h4>
+                    </ion-col>
+                </ion-row>
+                <ion-row>
+                    <ion-col>
+                        <h5>{{team.wins}}</h5>
+                    </ion-col>
+                    <ion-col>
+                        <h5>{{team.losses}}</h5>
+                    </ion-col>
+                    <ion-col>
+                        <h5>{{team.winningPct}}</h5>
+                    </ion-col>
+                    <ion-col>
+                        <h5>{{team.pointsFor}}</h5>
+                    </ion-col>
+                    <ion-col>
+                        <h5>{{team.pointsAgainst}}</h5>
+                    </ion-col>
+                    <ion-col>
+                        <h5>{{team.pointsDiff}}</h5>
+                    </ion-col>
+                </ion-row>
+            </ion-grid>            
+        </ion-item>
+    </ion-item-group>
+</ion-list>
+
