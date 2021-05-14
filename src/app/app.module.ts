@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { APP_INITIALIZER, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http'
@@ -7,16 +7,25 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-// import { GamePage } from './game/game.page';
-// import { TeamsPage } from './teams/teams.page';
-// import { TournamentPage } from './tournament/tournament.page';
-// import { TeamDetailPage } from './team-detail/team-detail.page';
+import { IonicStorageModule } from '@ionic/storage-angular';
+import { UserSettingsService } from './services/user-settings.service';
+
+const appInitializerFn = (userSettings: UserSettingsService) => {
+  return () => {
+    return userSettings.init();
+  }
+}
 
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, HttpClientModule],
-  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
+  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, HttpClientModule, IonicStorageModule.forRoot()],
+  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }, UserSettingsService, {
+    provide: APP_INITIALIZER,
+    useFactory: appInitializerFn,
+    multi: true,
+    deps: [UserSettingsService]
+  }],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

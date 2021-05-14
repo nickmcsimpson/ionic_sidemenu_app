@@ -4,6 +4,7 @@ import { Game, Standing, Team, TournamentData } from 'src/app/services/tournamen
 import * as _ from 'lodash';
 import * as moment from 'moment';
 import { AlertController, ToastController } from '@ionic/angular';
+import { UserSettingsService } from 'src/app/services/user-settings.service';
 
 @Component({
   selector: 'app-team-detail',
@@ -23,6 +24,7 @@ export class DetailComponent implements OnInit {
   constructor(
     private alertController: AlertController,
     private toastController: ToastController,
+    private userSetting: UserSettingsService,
   ) {}
 
   ngOnInit() {
@@ -45,6 +47,8 @@ export class DetailComponent implements OnInit {
                   .value();
     this.allGames = this.games;
     this.teamStanding = _.find(this.tournamentData.standings, { 'teamId': this.team.id }) as Standing;
+
+    this.userSetting.isFavoriteTeam(this.team.id.toString()).then(value => this.isFollowing = value);
   }
 
   getScoreDisplay(isTeam1, team1Score, team2Score) {
@@ -88,7 +92,8 @@ export class DetailComponent implements OnInit {
           {
             text: 'Yes',
             handler: () => {
-              this.isFollowing = false; // TODO: store data
+              this.isFollowing = false;
+              this.userSetting.unfavoriteTeam(this.team);
             }
           },
           { text: 'No', role: 'cancel' }
@@ -97,7 +102,9 @@ export class DetailComponent implements OnInit {
 
       await confirm.present();
     } else {
-      this.isFollowing = true; // TODO: persist data
+      this.isFollowing = true;
+      this.userSetting.favoriteTeam(this.team, this.tournamentData.tournament.id, this.tournamentData.tournament.name);
+
       let toast = await this.toastController.create({
         message: "You have followed this team.",
         duration: 3000,

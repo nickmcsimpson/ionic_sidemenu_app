@@ -4,6 +4,7 @@ import { LoadingController, NavController } from '@ionic/angular';
 import { Team, Tournament, TournamentData, TournamentsService } from '../services/tournaments.service';
 
 import * as _ from 'lodash';
+import { UserSettingsService } from '../services/user-settings.service';
 
 @Component({
   selector: 'app-folder',
@@ -18,18 +19,7 @@ export class TeamsPage implements OnInit {
     'My Teams',
     'All Teams',
   ]  
-  public favorites = [
-    {
-      team: { id: 6182, name: 'HC Elite 7th', coach: "Pimpson" },
-      tournamentId: '89e13aa2-ba6d-4f55-9cc2-61eba6172c63',
-      tournamentName: 'March Madness Tournament'
-    },
-    {
-      team: { id: 805, name: 'HC Elite', coach: "Pimpson" },
-      tournamentId: '98c6857e-b0d1-4295-b89e-2d95a45437f2',
-      tournamentName: 'Holiday Hoops Challenge'
-    }
-  ]
+  public favorites = [];
 
   // For Tournaments
   public tournament: Tournament;
@@ -38,7 +28,7 @@ export class TeamsPage implements OnInit {
   public allTeamDivisions: any[];
 
   constructor(private activatedRoute: ActivatedRoute, private loadingController: LoadingController, 
-    public tournamentsService: TournamentsService) { }
+    public tournamentsService: TournamentsService, private userSettings: UserSettingsService) { }
 
   ngOnInit() {
     const identifier = this.activatedRoute.snapshot.paramMap.get('id');
@@ -49,6 +39,10 @@ export class TeamsPage implements OnInit {
     } else { // Is Tournament ID:
       this.loadTournamentData(identifier);
     }
+  }
+
+  ionViewDidEnter() {
+    this.favorites = this.userSettings.getAllFavorites();
   }
 
   async loadTournamentData(identifier) {
