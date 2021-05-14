@@ -11,6 +11,10 @@
       </ion-button>
     </ion-buttons>
   </ion-toolbar>
+  <ion-toolbar>
+    <!-- IonInput and (input)="updateTeams()" don't work for live updates to text -->
+    <ion-searchbar placeholder="Search" [(ngModel)]="queryText" (ionChange)="updateTeams()"></ion-searchbar>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
@@ -56,11 +60,10 @@
     </ion-button>
   </div>
   
+  <!-- List of Tournament Teams -->
   <ion-list *ngIf="isTournament">
     <ion-list *ngIf="teams && teams.length > 0">
-      <!-- Bare list of all teams before organizing
-          -->
-      <ion-item-group *ngFor="let division of allTeamDivisions">
+      <ion-item-group *ngFor="let division of teams">
         <ion-item-divider color="secondary">{{ division.divisionName }}</ion-item-divider>
           <ion-item *ngFor="let t of division.divisionTeams"
           [routerLink]="['/tournaments', tournament.id, 'team-home', t.id]">

@@ -5,6 +5,7 @@ import { Team, Tournament, TournamentData, TournamentsService } from '../service
 
 import * as _ from 'lodash';
 import { UserSettingsService } from '../services/user-settings.service';
+import { Subject } from 'rxjs';
 
 @Component({
   selector: 'app-folder',
@@ -23,15 +24,21 @@ export class TeamsPage implements OnInit {
 
   // For Tournaments
   public tournament: Tournament;
-  public teams: Team[];
+  public teams: any[];
   public data: TournamentData;
   public allTeamDivisions: any[];
+  public queryText: string;
 
   constructor(private activatedRoute: ActivatedRoute, private loadingController: LoadingController, 
     public tournamentsService: TournamentsService, private userSettings: UserSettingsService) { }
 
   ngOnInit() {
     const identifier = this.activatedRoute.snapshot.paramMap.get('id');
+
+    // Use event handler to watch updates:
+    // This doesn't seem to have 'this' context and can't update anything
+    // const searchbar = document.querySelector('ion-searchbar');
+    // searchbar.addEventListener('ionInput', this.updateTeams);
 
     if (this.teams_identifier_list.includes(identifier)) {
       this.title = identifier;
@@ -64,8 +71,25 @@ export class TeamsPage implements OnInit {
 
       this.tournament = data.tournament;
       this.title = this.tournament.name;
+      this.teams = this.allTeamDivisions;
 
       loading.dismiss();
     });
+  }
+
+  updateTeams() {
+    // This doesn't update live
+    console.log(`State: ${this.queryText}`);
+    let queryTextLower = this.queryText.toLowerCase();
+    let filteredTeams = [];
+
+    _.forEach(this.allTeamDivisions, td => {
+      let teams = _.filter(td.divisionTeams, t => t.name.toLowerCase().includes(queryTextLower));
+      if(teams.length) {
+        filteredTeams.push({ divisionName: td.divisionName, divisionTeams: teams });
+      }
+    });
+
+    this.teams = filteredTeams;
   }
 }

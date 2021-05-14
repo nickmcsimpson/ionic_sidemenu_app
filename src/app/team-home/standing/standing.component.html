@@ -64,12 +64,21 @@
         </ion-grid>
     </ion-card-content>
 </ion-card>
+<ion-segment color="medium" [(ngModel)]="divisionFilter" (ionChange)="filterDivision($event)">
+    <ion-segment-button value="division">
+        Division
+    </ion-segment-button>
+    <ion-segment-button value="all">
+        All
+    </ion-segment-button>
+</ion-segment>
 <ion-list>
-    <ion-item-group>
-        <ion-item-divider color="secondary">
-            {{ standings.divisionName }}
+    <!-- Demo used 'infinite scroll' but my data is not flat like they had modified it to be, so I'm keeping these because I had already filtered -->
+    <ion-item-group *ngFor="let division of standings">
+        <ion-item-divider color="secondary" sticky>
+            {{ division.divisionName }}
         </ion-item-divider>
-        <ion-item *ngFor="let team of standings.divisionStandings" [routerLink]="['/tournaments', tournamentData.tournament.id, 'team-detail', team.id]">
+        <ion-item *ngFor="let team of division.divisionStandings" [routerLink]="['/tournaments', tournamentData.tournament.id, 'team-detail', team.id]">
             <ion-grid>
                 <ion-row>
                     <ion-col size='12'>
