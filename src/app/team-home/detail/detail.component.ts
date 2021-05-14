@@ -3,6 +3,7 @@ import { Game, Standing, Team, TournamentData } from 'src/app/services/tournamen
 
 import * as _ from 'lodash';
 import * as moment from 'moment';
+import { AlertController, ToastController } from '@ionic/angular';
 
 @Component({
   selector: 'app-team-detail',
@@ -17,8 +18,12 @@ export class DetailComponent implements OnInit {
   public allGames: any[];
   public dateFilter: string; // I don't like this because it's hard to tell where to click on Android
   public useDateFilter: boolean = false;
+  public isFollowing: boolean = false;
 
-  constructor() {}
+  constructor(
+    private alertController: AlertController,
+    private toastController: ToastController,
+  ) {}
 
   ngOnInit() {
     // Filter team data from tourney info
@@ -49,17 +54,59 @@ export class DetailComponent implements OnInit {
       let winIndicator = teamScore > opponentScore ? "W: " : "L: ";
       return winIndicator + teamScore + '-' + opponentScore;
     } else {
-      return "";
+      return "TBD";
     }
   }
 
   dateChanged() {
-    if (this.useDateFilter) {
+    if (this.useDateFilter && this.dateFilter) {
       this.games = _.filter(this.allGames, g => moment(g.time).isSame(this.dateFilter, 'day'));
     } else {
       this.games = this.allGames;
     }
     
+  }
+
+  getScoreWorL(game) {
+    return game.scoreDisplay ? game.scoreDisplay[0] : '';
+  }
+
+  getScoreDisplayBadgeColor(game) {
+    return game.scoreDisplay.indexOf('W:') === 0 ? 'success' : 'danger';
+  }
+
+  getFollowButtonDisplayColor() {
+    return this.isFollowing ? 'primary' : 'medium';
+  }
+
+  async toggleFollow() {
+    if(this.isFollowing) {
+      let confirm = await this.alertController.create({
+        header: 'Unfollow',
+        message: 'Are you sure you want to unfollow this team?',
+        buttons: [
+          {
+            text: 'Yes',
+            handler: () => {
+              this.isFollowing = false; // TODO: store data
+            }
+          },
+          { text: 'No', role: 'cancel' }
+        ]
+      });
+
+      await confirm.present();
+    } else {
+      this.isFollowing = true; // TODO: persist data
+      let toast = await this.toastController.create({
+        message: "You have followed this team.",
+        duration: 3000,
+        position: 'bottom',
+        color: 'success',
+      });
+
+      await toast.present();
+    }
   }
 
 }
