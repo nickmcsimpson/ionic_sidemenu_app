@@ -13,6 +13,13 @@
             </ion-item>
           </ion-menu-toggle>
         </ion-list>
+
+        <ion-list>
+          <ion-list-header>Favorites</ion-list-header>
+          <ion-item *ngFor="let fav of favoriteTeams" [routerLink]="['/tournaments', fav.tournamentId, 'team-home', fav.team.id]">
+            {{ fav.team.name }}
+          </ion-item>
+        </ion-list>
       </ion-content>
     </ion-menu>
     <ion-router-outlet id="main-content"></ion-router-outlet>

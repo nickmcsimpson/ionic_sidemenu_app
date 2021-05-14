@@ -28,23 +28,31 @@ export class DetailComponent implements OnInit {
   ) {}
 
   ngOnInit() {
+    this.setData();
+  }
+
+  ngOnChanges() { // When input params change, need to re-establish the computed data
+    this.setData();
+  }
+
+  setData() {
     // Filter team data from tourney info
     this.games = _.chain(this.tournamentData.games)
-                  .filter((g: Game) => g.team1Id === this.team.id || g.team2Id === this.team.id)
-                  .map((g: Game) => {
-                    let isTeam1 = (g.team1Id === this.team.id);
-                    let opponentname = isTeam1 ? g.team2 : g.team1;
-                    let scoreDisplay = this.getScoreDisplay(isTeam1, g.team1Score, g.team2Score);
-                    return {
-                      gameId: g.id,
-                      opponent: opponentname,
-                      time: Date.parse(g.time),
-                      location: g.location,
-                      scoreDisplay: scoreDisplay,
-                      homeAway: (isTeam1 ? 'vs. ' : 'at ')
-                    }
-                  })
-                  .value();
+        .filter((g: Game) => g.team1Id === this.team.id || g.team2Id === this.team.id)
+        .map((g: Game) => {
+          let isTeam1 = (g.team1Id === this.team.id);
+          let opponentname = isTeam1 ? g.team2 : g.team1;
+          let scoreDisplay = this.getScoreDisplay(isTeam1, g.team1Score, g.team2Score);
+          return {
+            gameId: g.id,
+            opponent: opponentname,
+            time: Date.parse(g.time),
+            location: g.location,
+            scoreDisplay: scoreDisplay,
+            homeAway: (isTeam1 ? 'vs. ' : 'at ')
+          }
+        })
+        .value();
     this.allGames = this.games;
     this.teamStanding = _.find(this.tournamentData.standings, { 'teamId': this.team.id }) as Standing;
 
@@ -58,7 +66,7 @@ export class DetailComponent implements OnInit {
       let winIndicator = teamScore > opponentScore ? "W: " : "L: ";
       return winIndicator + teamScore + '-' + opponentScore;
     } else {
-      return "TBD";
+      return "";
     }
   }
 
@@ -72,11 +80,15 @@ export class DetailComponent implements OnInit {
   }
 
   getScoreWorL(game) {
-    return game.scoreDisplay ? game.scoreDisplay[0] : '';
+    return game.scoreDisplay ? game.scoreDisplay[0] : 'TBD';
   }
 
   getScoreDisplayBadgeColor(game) {
-    return game.scoreDisplay.indexOf('W:') === 0 ? 'success' : 'danger';
+    if (game.scoreDisplay === '') {
+      return 'primary'
+    } else {
+      return game.scoreDisplay.indexOf('W:') === 0 ? 'success' : 'danger';
+    }    
   }
 
   getFollowButtonDisplayColor() {

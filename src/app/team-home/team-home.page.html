@@ -22,6 +22,9 @@
   </ion-toolbar>
 </ion-header>
 <ion-content>
+  <ion-refresher slot="fixed" (ionRefresh)="refreshAll($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
   <app-team-detail *ngIf="segment == 'details'" [team]="team" [tournamentData]="tournamentData"></app-team-detail>
   <app-team-standing *ngIf="segment == 'standings'" [standing]="standing" [team]="team" [tournamentData]="tournamentData"></app-team-standing>
 
