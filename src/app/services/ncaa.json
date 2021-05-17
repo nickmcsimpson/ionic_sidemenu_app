@@ -1,0 +1,4026 @@
+{
+    "data": {
+        "mmlContests": [
+            {
+                "bracketId": 101,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/18/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 201,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST FOUR&#174;",
+                    "subtitle": "3/18",
+                    "roundNumber": 1,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 1,
+                    "position": "TT",
+                    "title": "",
+                    "abbreviation": "",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40715",
+                    "name": "truTV",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 54,
+                        "color": "#007A53",
+                        "ncaaOrgId": 485,
+                        "seed": 16,
+                        "seoname": "norfolk-st",
+                        "nickname": "Spartans",
+                        "nameShort": "Norfolk St.",
+                        "name6Char": "NORFLK",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 53,
+                        "color": "#010101",
+                        "ncaaOrgId": 27,
+                        "seed": 16,
+                        "seoname": "appalachian-st",
+                        "nickname": "Mountaineers",
+                        "nameShort": "Appalachian St.",
+                        "name6Char": "APP ST",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 102,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/18/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 205,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST FOUR&#174;",
+                    "subtitle": "3/18",
+                    "roundNumber": 1,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 1,
+                    "position": "TT",
+                    "title": "",
+                    "abbreviation": "",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40738",
+                    "name": "TBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 52,
+                        "color": "#010101",
+                        "ncaaOrgId": 782,
+                        "seed": 11,
+                        "seoname": "wichita-st",
+                        "nickname": "Shockers",
+                        "nameShort": "Wichita St.",
+                        "name6Char": "WICHST",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 53,
+                        "color": "#002F6C",
+                        "ncaaOrgId": 189,
+                        "seed": 11,
+                        "seoname": "drake",
+                        "nickname": "Bulldogs",
+                        "nameShort": "Drake",
+                        "name6Char": "DRAKE",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 103,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/18/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 209,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST FOUR&#174;",
+                    "subtitle": "3/18",
+                    "roundNumber": 1,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 1,
+                    "position": "TT",
+                    "title": "",
+                    "abbreviation": "",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40715",
+                    "name": "truTV",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 52,
+                        "color": "#002F6C",
+                        "ncaaOrgId": 450,
+                        "seed": 16,
+                        "seoname": "mt-st-marys",
+                        "nickname": "Mountaineers",
+                        "nameShort": "Mount St. Mary's",
+                        "name6Char": "MOUNT",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 60,
+                        "color": "#6F263D",
+                        "ncaaOrgId": 699,
+                        "seed": 16,
+                        "seoname": "texas-southern",
+                        "nickname": "Tigers",
+                        "nameShort": "Texas Southern",
+                        "name6Char": "TX SO",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 104,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/18/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 213,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST FOUR&#174;",
+                    "subtitle": "3/18",
+                    "roundNumber": 1,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 1,
+                    "position": "TT",
+                    "title": "",
+                    "abbreviation": "",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40738",
+                    "name": "TBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 80,
+                        "color": "#173F35",
+                        "ncaaOrgId": 416,
+                        "seed": 11,
+                        "seoname": "michigan-st",
+                        "nickname": "Spartans",
+                        "nameShort": "Michigan St.",
+                        "name6Char": "MSU",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 86,
+                        "color": "#0072CE",
+                        "ncaaOrgId": 110,
+                        "seed": 11,
+                        "seoname": "ucla",
+                        "nickname": "Bruins",
+                        "nameShort": "UCLA",
+                        "name6Char": "UCLA",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 201,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/20/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 301,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 2,
+                    "position": "TL",
+                    "title": "WEST",
+                    "abbreviation": "W",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40738",
+                    "name": "TBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 98,
+                        "color": "#D51A35",
+                        "ncaaOrgId": 260,
+                        "seed": 1,
+                        "seoname": "gonzaga",
+                        "nickname": "Bulldogs",
+                        "nameShort": "Gonzaga",
+                        "name6Char": "GONZ",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 55,
+                        "color": "#007A53",
+                        "ncaaOrgId": 485,
+                        "seed": 16,
+                        "seoname": "norfolk-st",
+                        "nickname": "Spartans",
+                        "nameShort": "Norfolk St.",
+                        "name6Char": "NORFLK",
+                        "isWinner": false,
+                        "textOverride": "NSU/APPST",
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 202,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/20/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 301,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 2,
+                    "position": "TL",
+                    "title": "WEST",
+                    "abbreviation": "W",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40720",
+                    "name": "TNT",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 72,
+                        "color": "#9D2235",
+                        "ncaaOrgId": 522,
+                        "seed": 8,
+                        "seoname": "oklahoma",
+                        "nickname": "Sooners",
+                        "nameShort": "Oklahoma",
+                        "name6Char": "OKLA",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 68,
+                        "color": "#010101",
+                        "ncaaOrgId": 434,
+                        "seed": 9,
+                        "seoname": "missouri",
+                        "nickname": "Tigers",
+                        "nameShort": "Missouri",
+                        "name6Char": "MIZZOU",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 203,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/20/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 302,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 2,
+                    "position": "TL",
+                    "title": "WEST",
+                    "abbreviation": "W",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40715",
+                    "name": "truTV",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 63,
+                        "color": "#0032A0",
+                        "ncaaOrgId": 169,
+                        "seed": 5,
+                        "seoname": "creighton",
+                        "nickname": "Bluejays",
+                        "nameShort": "Creighton",
+                        "name6Char": "CREIGH",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 62,
+                        "color": "#0032A0",
+                        "ncaaOrgId": 104,
+                        "seed": 12,
+                        "seoname": "uc-santa-barbara",
+                        "nickname": "Gauchos",
+                        "nameShort": "UCSB",
+                        "name6Char": "UCSB",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 204,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/20/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 302,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 2,
+                    "position": "TL",
+                    "title": "WEST",
+                    "abbreviation": "W",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40715",
+                    "name": "truTV",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 58,
+                        "color": "#232D4B",
+                        "ncaaOrgId": 746,
+                        "seed": 4,
+                        "seoname": "virginia",
+                        "nickname": "Cavaliers",
+                        "nameShort": "Virginia",
+                        "name6Char": "UVA",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 62,
+                        "color": "#2C5234",
+                        "ncaaOrgId": 519,
+                        "seed": 13,
+                        "seoname": "ohio",
+                        "nickname": "Bobcats",
+                        "nameShort": "Ohio",
+                        "name6Char": "OHIO",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 205,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/20/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 303,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 2,
+                    "position": "TL",
+                    "title": "WEST",
+                    "abbreviation": "W",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40720",
+                    "name": "TNT",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 72,
+                        "color": "#9D2235",
+                        "ncaaOrgId": 657,
+                        "seed": 6,
+                        "seoname": "southern-california",
+                        "nickname": "Trojans",
+                        "nameShort": "USC",
+                        "name6Char": "USC",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 56,
+                        "color": "#002F6C",
+                        "ncaaOrgId": 189,
+                        "seed": 11,
+                        "seoname": "drake",
+                        "nickname": "Bulldogs",
+                        "nameShort": "Drake",
+                        "name6Char": "DRAKE",
+                        "isWinner": false,
+                        "textOverride": "WSU/DRAKE",
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 206,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/20/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 303,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 2,
+                    "position": "TL",
+                    "title": "WEST",
+                    "abbreviation": "W",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40738",
+                    "name": "TBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 93,
+                        "color": "#1967B8",
+                        "ncaaOrgId": 328,
+                        "seed": 3,
+                        "seoname": "kansas",
+                        "nickname": "Jayhawks",
+                        "nameShort": "Kansas",
+                        "name6Char": "KANSAS",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 84,
+                        "color": "#A6192E",
+                        "ncaaOrgId": 207,
+                        "seed": 14,
+                        "seoname": "eastern-wash",
+                        "nickname": "Eagles",
+                        "nameShort": "Eastern Wash.",
+                        "name6Char": "EWU",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 207,
+                "gameStateCode": 4,
+                "gamestateDisplay": "NO CONTEST",
+                "startDate": "03/20/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 304,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 2,
+                    "position": "TL",
+                    "title": "WEST",
+                    "abbreviation": "W",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40720",
+                    "name": "TNT",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": null,
+                        "color": "#173F35",
+                        "ncaaOrgId": 529,
+                        "seed": 7,
+                        "seoname": "oregon",
+                        "nickname": "Ducks",
+                        "nameShort": "Oregon",
+                        "name6Char": "ORE",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": null,
+                        "color": "#010101",
+                        "ncaaOrgId": 740,
+                        "seed": 10,
+                        "seoname": "vcu",
+                        "nickname": "Rams",
+                        "nameShort": "VCU",
+                        "name6Char": "VCU",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 208,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/20/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 304,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 2,
+                    "position": "TL",
+                    "title": "WEST",
+                    "abbreviation": "W",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40738",
+                    "name": "TBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 86,
+                        "color": "#010101",
+                        "ncaaOrgId": 312,
+                        "seed": 2,
+                        "seoname": "iowa",
+                        "nickname": "Hawkeyes",
+                        "nameShort": "Iowa",
+                        "name6Char": "IOWA",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 74,
+                        "color": "#5F259F",
+                        "ncaaOrgId": 1104,
+                        "seed": 15,
+                        "seoname": "grand-canyon",
+                        "nickname": "Lopes",
+                        "nameShort": "Grand Canyon",
+                        "name6Char": "GCU",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 209,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/20/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 305,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 4,
+                    "position": "BL",
+                    "title": "EAST",
+                    "abbreviation": "E",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40723",
+                    "name": "CBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 82,
+                        "color": "#041E42",
+                        "ncaaOrgId": 418,
+                        "seed": 1,
+                        "seoname": "michigan",
+                        "nickname": "Wolverines",
+                        "nameShort": "Michigan",
+                        "name6Char": "MICH",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 66,
+                        "color": "#6F263D",
+                        "ncaaOrgId": 699,
+                        "seed": 16,
+                        "seoname": "texas-southern",
+                        "nickname": "Tigers",
+                        "nameShort": "Texas Southern",
+                        "name6Char": "TX SO",
+                        "isWinner": false,
+                        "textOverride": "MSM/TXSO",
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 210,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/20/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 305,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 4,
+                    "position": "BL",
+                    "title": "EAST",
+                    "abbreviation": "E",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40720",
+                    "name": "TNT",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 76,
+                        "color": "#582C83",
+                        "ncaaOrgId": 365,
+                        "seed": 8,
+                        "seoname": "lsu",
+                        "nickname": "Tigers",
+                        "nameShort": "LSU",
+                        "name6Char": "LSU",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 61,
+                        "color": "#412E26",
+                        "ncaaOrgId": 596,
+                        "seed": 9,
+                        "seoname": "st-bonaventure",
+                        "nickname": "Bonnies",
+                        "nameShort": "St. Bonaventure",
+                        "name6Char": "BONA",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 211,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/20/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 306,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 4,
+                    "position": "BL",
+                    "title": "EAST",
+                    "abbreviation": "E",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40723",
+                    "name": "CBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 96,
+                        "color": "#010101",
+                        "ncaaOrgId": 157,
+                        "seed": 5,
+                        "seoname": "colorado",
+                        "nickname": "Buffaloes",
+                        "nameShort": "Colorado",
+                        "name6Char": "COLO",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 73,
+                        "color": "#041E42",
+                        "ncaaOrgId": 251,
+                        "seed": 12,
+                        "seoname": "georgetown",
+                        "nickname": "Hoyas",
+                        "nameShort": "Georgetown",
+                        "name6Char": "GTOWN",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 212,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/20/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 306,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 4,
+                    "position": "BL",
+                    "title": "EAST",
+                    "abbreviation": "E",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40715",
+                    "name": "truTV",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 64,
+                        "color": "#76253A",
+                        "ncaaOrgId": 234,
+                        "seed": 4,
+                        "seoname": "florida-st",
+                        "nickname": "Seminoles",
+                        "nameShort": "Florida St.",
+                        "name6Char": "FSU",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 54,
+                        "color": "#13294B",
+                        "ncaaOrgId": 459,
+                        "seed": 13,
+                        "seoname": "unc-greensboro",
+                        "nickname": "Spartans",
+                        "nameShort": "UNC Greensboro",
+                        "name6Char": "UNCG",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 213,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/20/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 307,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 4,
+                    "position": "BL",
+                    "title": "EAST",
+                    "abbreviation": "E",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40723",
+                    "name": "CBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 62,
+                        "color": "#002E5D",
+                        "ncaaOrgId": 77,
+                        "seed": 6,
+                        "seoname": "byu",
+                        "nickname": "Cougars",
+                        "nameShort": "BYU",
+                        "name6Char": "BYU",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 73,
+                        "color": "#0072CE",
+                        "ncaaOrgId": 110,
+                        "seed": 11,
+                        "seoname": "ucla",
+                        "nickname": "Bruins",
+                        "nameShort": "UCLA",
+                        "name6Char": "UCLA",
+                        "isWinner": true,
+                        "textOverride": "MSU/UCLA",
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 214,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/20/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 307,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 4,
+                    "position": "BL",
+                    "title": "EAST",
+                    "abbreviation": "E",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40715",
+                    "name": "truTV",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 52,
+                        "color": "#CB6015",
+                        "ncaaOrgId": 703,
+                        "seed": 3,
+                        "seoname": "texas",
+                        "nickname": "Longhorns",
+                        "nameShort": "Texas",
+                        "name6Char": "TEXAS",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 53,
+                        "color": "#582C83",
+                        "ncaaOrgId": 2,
+                        "seed": 14,
+                        "seoname": "abilene-christian",
+                        "nickname": "Wildcats",
+                        "nameShort": "Abilene Christian",
+                        "name6Char": "ACU",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 215,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/20/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 308,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 4,
+                    "position": "BL",
+                    "title": "EAST",
+                    "abbreviation": "E",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40723",
+                    "name": "CBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 54,
+                        "color": "#0C2340",
+                        "ncaaOrgId": 164,
+                        "seed": 7,
+                        "seoname": "uconn",
+                        "nickname": "Huskies",
+                        "nameShort": "UConn",
+                        "name6Char": "UCONN",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 63,
+                        "color": "#C8102E",
+                        "ncaaOrgId": 392,
+                        "seed": 10,
+                        "seoname": "maryland",
+                        "nickname": "Terrapins",
+                        "nameShort": "Maryland",
+                        "name6Char": "MD",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 216,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/20/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 308,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 4,
+                    "position": "BL",
+                    "title": "EAST",
+                    "abbreviation": "E",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40738",
+                    "name": "TBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 68,
+                        "color": "#9D2235",
+                        "ncaaOrgId": 8,
+                        "seed": 2,
+                        "seoname": "alabama",
+                        "nickname": "Crimson Tide",
+                        "nameShort": "Alabama",
+                        "name6Char": "BAMA",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 55,
+                        "color": "#6F2C3F",
+                        "ncaaOrgId": 310,
+                        "seed": 15,
+                        "seoname": "iona",
+                        "nickname": "Gaels",
+                        "nameShort": "Iona",
+                        "name6Char": "IONA",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 217,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/19/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 309,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 3,
+                    "position": "TR",
+                    "title": "SOUTH",
+                    "abbreviation": "S",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40715",
+                    "name": "truTV",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 79,
+                        "color": "#1B3E30",
+                        "ncaaOrgId": 51,
+                        "seed": 1,
+                        "seoname": "baylor",
+                        "nickname": "Bears",
+                        "nameShort": "Baylor",
+                        "name6Char": "BAY",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 55,
+                        "color": "#DA291C",
+                        "ncaaOrgId": 272,
+                        "seed": 16,
+                        "seoname": "hartford",
+                        "nickname": "Hawks",
+                        "nameShort": "Hartford",
+                        "name6Char": "HART",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 218,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/19/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 309,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 3,
+                    "position": "TR",
+                    "title": "SOUTH",
+                    "abbreviation": "S",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40723",
+                    "name": "CBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 62,
+                        "color": "#7BAFD4",
+                        "ncaaOrgId": 457,
+                        "seed": 8,
+                        "seoname": "north-carolina",
+                        "nickname": "Tar Heels",
+                        "nameShort": "North Carolina",
+                        "name6Char": "UNC",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 85,
+                        "color": "#BA0C2F",
+                        "ncaaOrgId": 796,
+                        "seed": 9,
+                        "seoname": "wisconsin",
+                        "nickname": "Badgers",
+                        "nameShort": "Wisconsin",
+                        "name6Char": "WIS",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 219,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/19/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 310,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 3,
+                    "position": "TR",
+                    "title": "SOUTH",
+                    "abbreviation": "S",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40720",
+                    "name": "TNT",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 73,
+                        "color": "#173A79",
+                        "ncaaOrgId": 739,
+                        "seed": 5,
+                        "seoname": "villanova",
+                        "nickname": "Wildcats",
+                        "nameShort": "Villanova",
+                        "name6Char": "NOVA",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 63,
+                        "color": "#9D2235",
+                        "ncaaOrgId": 792,
+                        "seed": 12,
+                        "seoname": "winthrop",
+                        "nickname": "Eagles",
+                        "nameShort": "Winthrop",
+                        "name6Char": "WINTH",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 220,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/19/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 310,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 3,
+                    "position": "TR",
+                    "title": "SOUTH",
+                    "abbreviation": "S",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40720",
+                    "name": "TNT",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 69,
+                        "color": "#010101",
+                        "ncaaOrgId": 559,
+                        "seed": 4,
+                        "seoname": "purdue",
+                        "nickname": "Boilermakers",
+                        "nameShort": "Purdue",
+                        "name6Char": "PUR",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 78,
+                        "color": "#007A33",
+                        "ncaaOrgId": 497,
+                        "seed": 13,
+                        "seoname": "north-texas",
+                        "nickname": "Mean Green",
+                        "nameShort": "North Texas",
+                        "name6Char": "UNT",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 221,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/19/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 311,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 3,
+                    "position": "TR",
+                    "title": "SOUTH",
+                    "abbreviation": "S",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40720",
+                    "name": "TNT",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 65,
+                        "color": "#ED1F2A",
+                        "ncaaOrgId": 700,
+                        "seed": 6,
+                        "seoname": "texas-tech",
+                        "nickname": "Red Raiders",
+                        "nameShort": "Texas Tech",
+                        "name6Char": "TTU",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 53,
+                        "color": "#00263A",
+                        "ncaaOrgId": 731,
+                        "seed": 11,
+                        "seoname": "utah-st",
+                        "nickname": "Aggies",
+                        "nameShort": "Utah St.",
+                        "name6Char": "UT ST",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 222,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/19/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 311,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 3,
+                    "position": "TR",
+                    "title": "SOUTH",
+                    "abbreviation": "S",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40715",
+                    "name": "truTV",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 85,
+                        "color": "#9D2235",
+                        "ncaaOrgId": 31,
+                        "seed": 3,
+                        "seoname": "arkansas",
+                        "nickname": "Razorbacks",
+                        "nameShort": "Arkansas",
+                        "name6Char": "ARK",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 68,
+                        "color": "#772430",
+                        "ncaaOrgId": 153,
+                        "seed": 14,
+                        "seoname": "colgate",
+                        "nickname": "Raiders",
+                        "nameShort": "Colgate",
+                        "name6Char": "GATE",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 223,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/19/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 312,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 3,
+                    "position": "TR",
+                    "title": "SOUTH",
+                    "abbreviation": "S",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40723",
+                    "name": "CBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 75,
+                        "color": "#003087",
+                        "ncaaOrgId": 235,
+                        "seed": 7,
+                        "seoname": "florida",
+                        "nickname": "Gators",
+                        "nameShort": "Florida",
+                        "name6Char": "FLA",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 70,
+                        "color": "#861F41",
+                        "ncaaOrgId": 742,
+                        "seed": 10,
+                        "seoname": "virginia-tech",
+                        "nickname": "Hokies",
+                        "nameShort": "Virginia Tech",
+                        "name6Char": "VT",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 224,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/19/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 312,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 3,
+                    "position": "TR",
+                    "title": "SOUTH",
+                    "abbreviation": "S",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40723",
+                    "name": "CBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 72,
+                        "color": "#CE0F3E",
+                        "ncaaOrgId": 518,
+                        "seed": 2,
+                        "seoname": "ohio-st",
+                        "nickname": "Buckeyes",
+                        "nameShort": "Ohio St.",
+                        "name6Char": "OSU",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 75,
+                        "color": "#041E42",
+                        "ncaaOrgId": 527,
+                        "seed": 15,
+                        "seoname": "oral-roberts",
+                        "nickname": "Golden Eagles",
+                        "nameShort": "Oral Roberts",
+                        "name6Char": "ORU",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 225,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/19/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 313,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 5,
+                    "position": "BR",
+                    "title": "MIDWEST",
+                    "abbreviation": "MW",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40738",
+                    "name": "TBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 78,
+                        "color": "#E04E39",
+                        "ncaaOrgId": 301,
+                        "seed": 1,
+                        "seoname": "illinois",
+                        "nickname": "Fighting Illini",
+                        "nameShort": "Illinois",
+                        "name6Char": "ILL",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 49,
+                        "color": "#002F6C",
+                        "ncaaOrgId": 191,
+                        "seed": 16,
+                        "seoname": "drexel",
+                        "nickname": "Dragons",
+                        "nameShort": "Drexel",
+                        "name6Char": "DREXEL",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 226,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/19/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 313,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 5,
+                    "position": "BR",
+                    "title": "MIDWEST",
+                    "abbreviation": "MW",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40738",
+                    "name": "TBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 71,
+                        "color": "#861F41",
+                        "ncaaOrgId": 371,
+                        "seed": 8,
+                        "seoname": "loyola-chicago",
+                        "nickname": "Ramblers",
+                        "nameShort": "Loyola Chicago",
+                        "name6Char": "LOYCHI",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 60,
+                        "color": "#B3A369",
+                        "ncaaOrgId": 255,
+                        "seed": 9,
+                        "seoname": "georgia-tech",
+                        "nickname": "Yellow Jackets",
+                        "nameShort": "Georgia Tech",
+                        "name6Char": "GT",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 227,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/19/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 314,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 5,
+                    "position": "BR",
+                    "title": "MIDWEST",
+                    "abbreviation": "MW",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40720",
+                    "name": "TNT",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 56,
+                        "color": "#FF8200",
+                        "ncaaOrgId": 694,
+                        "seed": 5,
+                        "seoname": "tennessee",
+                        "nickname": "Volunteers",
+                        "nameShort": "Tennessee",
+                        "name6Char": "TENN",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 70,
+                        "color": "#DC4405",
+                        "ncaaOrgId": 528,
+                        "seed": 12,
+                        "seoname": "oregon-st",
+                        "nickname": "Beavers",
+                        "nameShort": "Oregon St.",
+                        "name6Char": "ORE ST",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 228,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/19/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 314,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 5,
+                    "position": "BR",
+                    "title": "MIDWEST",
+                    "abbreviation": "MW",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40738",
+                    "name": "TBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 69,
+                        "color": "#DF4F2A",
+                        "ncaaOrgId": 521,
+                        "seed": 4,
+                        "seoname": "oklahoma-st",
+                        "nickname": "Cowboys",
+                        "nameShort": "Oklahoma St.",
+                        "name6Char": "OK ST",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 60,
+                        "color": "#971A1F",
+                        "ncaaOrgId": 355,
+                        "seed": 13,
+                        "seoname": "liberty",
+                        "nickname": "Flames",
+                        "nameShort": "Liberty",
+                        "name6Char": "LIB",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 229,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/19/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 315,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 5,
+                    "position": "BR",
+                    "title": "MIDWEST",
+                    "abbreviation": "MW",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40723",
+                    "name": "CBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 62,
+                        "color": "#A6192E",
+                        "ncaaOrgId": 626,
+                        "seed": 6,
+                        "seoname": "san-diego-st",
+                        "nickname": "Aztecs",
+                        "nameShort": "San Diego St.",
+                        "name6Char": "SDSU",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 78,
+                        "color": "#DC4405",
+                        "ncaaOrgId": 688,
+                        "seed": 11,
+                        "seoname": "syracuse",
+                        "nickname": "Orange",
+                        "nameShort": "Syracuse",
+                        "name6Char": "CUSE",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 230,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/19/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 315,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 5,
+                    "position": "BR",
+                    "title": "MIDWEST",
+                    "abbreviation": "MW",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40715",
+                    "name": "truTV",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 84,
+                        "color": "#002855",
+                        "ncaaOrgId": 768,
+                        "seed": 3,
+                        "seoname": "west-virginia",
+                        "nickname": "Mountaineers",
+                        "nameShort": "West Virginia",
+                        "name6Char": "WVU",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 67,
+                        "color": "#0032A0",
+                        "ncaaOrgId": 444,
+                        "seed": 14,
+                        "seoname": "morehead-st",
+                        "nickname": "Eagles",
+                        "nameShort": "Morehead St.",
+                        "name6Char": "MREHD",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 231,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/19/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 316,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 5,
+                    "position": "BR",
+                    "title": "MIDWEST",
+                    "abbreviation": "MW",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40738",
+                    "name": "TBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 56,
+                        "color": "#FF6720",
+                        "ncaaOrgId": 147,
+                        "seed": 7,
+                        "seoname": "clemson",
+                        "nickname": "Tigers",
+                        "nameShort": "Clemson",
+                        "name6Char": "CLEM",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 60,
+                        "color": "#C8102E",
+                        "ncaaOrgId": 587,
+                        "seed": 10,
+                        "seoname": "rutgers",
+                        "nickname": "Scarlet Knights",
+                        "nameShort": "Rutgers",
+                        "name6Char": "RUT",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 232,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/19/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 316,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FIRST ROUND",
+                    "subtitle": "3/19-20",
+                    "roundNumber": 2,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 5,
+                    "position": "BR",
+                    "title": "MIDWEST",
+                    "abbreviation": "MW",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40715",
+                    "name": "truTV",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 87,
+                        "color": "#E51636",
+                        "ncaaOrgId": 288,
+                        "seed": 2,
+                        "seoname": "houston",
+                        "nickname": "Cougars",
+                        "nameShort": "Houston",
+                        "name6Char": "HOU",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 56,
+                        "color": "#115740",
+                        "ncaaOrgId": 148,
+                        "seed": 15,
+                        "seoname": "cleveland-st",
+                        "nickname": "Vikings",
+                        "nameShort": "Cleveland St.",
+                        "name6Char": "CLE ST",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 301,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/22/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 401,
+                "mmlVideo": false,
+                "round": {
+                    "title": "SECOND ROUND",
+                    "subtitle": "3/21-22",
+                    "roundNumber": 3,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 2,
+                    "position": "TL",
+                    "title": "WEST",
+                    "abbreviation": "W",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40723",
+                    "name": "CBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 87,
+                        "color": "#D51A35",
+                        "ncaaOrgId": 260,
+                        "seed": 1,
+                        "seoname": "gonzaga",
+                        "nickname": "Bulldogs",
+                        "nameShort": "Gonzaga",
+                        "name6Char": "GONZ",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 71,
+                        "color": "#9D2235",
+                        "ncaaOrgId": 522,
+                        "seed": 8,
+                        "seoname": "oklahoma",
+                        "nickname": "Sooners",
+                        "nameShort": "Oklahoma",
+                        "name6Char": "OKLA",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 302,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/22/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 401,
+                "mmlVideo": false,
+                "round": {
+                    "title": "SECOND ROUND",
+                    "subtitle": "3/21-22",
+                    "roundNumber": 3,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 2,
+                    "position": "TL",
+                    "title": "WEST",
+                    "abbreviation": "W",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40720",
+                    "name": "TNT",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 72,
+                        "color": "#0032A0",
+                        "ncaaOrgId": 169,
+                        "seed": 5,
+                        "seoname": "creighton",
+                        "nickname": "Bluejays",
+                        "nameShort": "Creighton",
+                        "name6Char": "CREIGH",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 58,
+                        "color": "#2C5234",
+                        "ncaaOrgId": 519,
+                        "seed": 13,
+                        "seoname": "ohio",
+                        "nickname": "Bobcats",
+                        "nameShort": "Ohio",
+                        "name6Char": "OHIO",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 303,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/22/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 402,
+                "mmlVideo": false,
+                "round": {
+                    "title": "SECOND ROUND",
+                    "subtitle": "3/21-22",
+                    "roundNumber": 3,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 2,
+                    "position": "TL",
+                    "title": "WEST",
+                    "abbreviation": "W",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40723",
+                    "name": "CBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": false,
+                        "score": 85,
+                        "color": "#9D2235",
+                        "ncaaOrgId": 657,
+                        "seed": 6,
+                        "seoname": "southern-california",
+                        "nickname": "Trojans",
+                        "nameShort": "USC",
+                        "name6Char": "USC",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": true,
+                        "score": 51,
+                        "color": "#1967B8",
+                        "ncaaOrgId": 328,
+                        "seed": 3,
+                        "seoname": "kansas",
+                        "nickname": "Jayhawks",
+                        "nameShort": "Kansas",
+                        "name6Char": "KANSAS",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 304,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/22/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 402,
+                "mmlVideo": false,
+                "round": {
+                    "title": "SECOND ROUND",
+                    "subtitle": "3/21-22",
+                    "roundNumber": 3,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 2,
+                    "position": "TL",
+                    "title": "WEST",
+                    "abbreviation": "W",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40723",
+                    "name": "CBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": false,
+                        "score": 95,
+                        "color": "#173F35",
+                        "ncaaOrgId": 529,
+                        "seed": 7,
+                        "seoname": "oregon",
+                        "nickname": "Ducks",
+                        "nameShort": "Oregon",
+                        "name6Char": "ORE",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": true,
+                        "score": 80,
+                        "color": "#010101",
+                        "ncaaOrgId": 312,
+                        "seed": 2,
+                        "seoname": "iowa",
+                        "nickname": "Hawkeyes",
+                        "nameShort": "Iowa",
+                        "name6Char": "IOWA",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 305,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/22/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 403,
+                "mmlVideo": false,
+                "round": {
+                    "title": "SECOND ROUND",
+                    "subtitle": "3/21-22",
+                    "roundNumber": 3,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 4,
+                    "position": "BL",
+                    "title": "EAST",
+                    "abbreviation": "E",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40723",
+                    "name": "CBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 86,
+                        "color": "#041E42",
+                        "ncaaOrgId": 418,
+                        "seed": 1,
+                        "seoname": "michigan",
+                        "nickname": "Wolverines",
+                        "nameShort": "Michigan",
+                        "name6Char": "MICH",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 78,
+                        "color": "#582C83",
+                        "ncaaOrgId": 365,
+                        "seed": 8,
+                        "seoname": "lsu",
+                        "nickname": "Tigers",
+                        "nameShort": "LSU",
+                        "name6Char": "LSU",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 306,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/22/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 403,
+                "mmlVideo": false,
+                "round": {
+                    "title": "SECOND ROUND",
+                    "subtitle": "3/21-22",
+                    "roundNumber": 3,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 4,
+                    "position": "BL",
+                    "title": "EAST",
+                    "abbreviation": "E",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40738",
+                    "name": "TBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": false,
+                        "score": 53,
+                        "color": "#010101",
+                        "ncaaOrgId": 157,
+                        "seed": 5,
+                        "seoname": "colorado",
+                        "nickname": "Buffaloes",
+                        "nameShort": "Colorado",
+                        "name6Char": "COLO",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": true,
+                        "score": 71,
+                        "color": "#76253A",
+                        "ncaaOrgId": 234,
+                        "seed": 4,
+                        "seoname": "florida-st",
+                        "nickname": "Seminoles",
+                        "nameShort": "Florida St.",
+                        "name6Char": "FSU",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 307,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/22/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 404,
+                "mmlVideo": false,
+                "round": {
+                    "title": "SECOND ROUND",
+                    "subtitle": "3/21-22",
+                    "roundNumber": 3,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 4,
+                    "position": "BL",
+                    "title": "EAST",
+                    "abbreviation": "E",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40738",
+                    "name": "TBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 67,
+                        "color": "#0072CE",
+                        "ncaaOrgId": 110,
+                        "seed": 11,
+                        "seoname": "ucla",
+                        "nickname": "Bruins",
+                        "nameShort": "UCLA",
+                        "name6Char": "UCLA",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 47,
+                        "color": "#582C83",
+                        "ncaaOrgId": 2,
+                        "seed": 14,
+                        "seoname": "abilene-christian",
+                        "nickname": "Wildcats",
+                        "nameShort": "Abilene Christian",
+                        "name6Char": "ACU",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 308,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/22/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 404,
+                "mmlVideo": false,
+                "round": {
+                    "title": "SECOND ROUND",
+                    "subtitle": "3/21-22",
+                    "roundNumber": 3,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 4,
+                    "position": "BL",
+                    "title": "EAST",
+                    "abbreviation": "E",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40720",
+                    "name": "TNT",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": false,
+                        "score": 77,
+                        "color": "#C8102E",
+                        "ncaaOrgId": 392,
+                        "seed": 10,
+                        "seoname": "maryland",
+                        "nickname": "Terrapins",
+                        "nameShort": "Maryland",
+                        "name6Char": "MD",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": true,
+                        "score": 96,
+                        "color": "#9D2235",
+                        "ncaaOrgId": 8,
+                        "seed": 2,
+                        "seoname": "alabama",
+                        "nickname": "Crimson Tide",
+                        "nameShort": "Alabama",
+                        "name6Char": "BAMA",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 309,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/21/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 405,
+                "mmlVideo": false,
+                "round": {
+                    "title": "SECOND ROUND",
+                    "subtitle": "3/21-22",
+                    "roundNumber": 3,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 3,
+                    "position": "TR",
+                    "title": "SOUTH",
+                    "abbreviation": "S",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40723",
+                    "name": "CBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 76,
+                        "color": "#1B3E30",
+                        "ncaaOrgId": 51,
+                        "seed": 1,
+                        "seoname": "baylor",
+                        "nickname": "Bears",
+                        "nameShort": "Baylor",
+                        "name6Char": "BAY",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 63,
+                        "color": "#BA0C2F",
+                        "ncaaOrgId": 796,
+                        "seed": 9,
+                        "seoname": "wisconsin",
+                        "nickname": "Badgers",
+                        "nameShort": "Wisconsin",
+                        "name6Char": "WIS",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 310,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/21/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 405,
+                "mmlVideo": false,
+                "round": {
+                    "title": "SECOND ROUND",
+                    "subtitle": "3/21-22",
+                    "roundNumber": 3,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 3,
+                    "position": "TR",
+                    "title": "SOUTH",
+                    "abbreviation": "S",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40720",
+                    "name": "TNT",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 84,
+                        "color": "#173A79",
+                        "ncaaOrgId": 739,
+                        "seed": 5,
+                        "seoname": "villanova",
+                        "nickname": "Wildcats",
+                        "nameShort": "Villanova",
+                        "name6Char": "NOVA",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 61,
+                        "color": "#007A33",
+                        "ncaaOrgId": 497,
+                        "seed": 13,
+                        "seoname": "north-texas",
+                        "nickname": "Mean Green",
+                        "nameShort": "North Texas",
+                        "name6Char": "UNT",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 311,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/21/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 406,
+                "mmlVideo": false,
+                "round": {
+                    "title": "SECOND ROUND",
+                    "subtitle": "3/21-22",
+                    "roundNumber": 3,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 3,
+                    "position": "TR",
+                    "title": "SOUTH",
+                    "abbreviation": "S",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40720",
+                    "name": "TNT",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": false,
+                        "score": 66,
+                        "color": "#ED1F2A",
+                        "ncaaOrgId": 700,
+                        "seed": 6,
+                        "seoname": "texas-tech",
+                        "nickname": "Red Raiders",
+                        "nameShort": "Texas Tech",
+                        "name6Char": "TTU",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": true,
+                        "score": 68,
+                        "color": "#9D2235",
+                        "ncaaOrgId": 31,
+                        "seed": 3,
+                        "seoname": "arkansas",
+                        "nickname": "Razorbacks",
+                        "nameShort": "Arkansas",
+                        "name6Char": "ARK",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 312,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/21/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 406,
+                "mmlVideo": false,
+                "round": {
+                    "title": "SECOND ROUND",
+                    "subtitle": "3/21-22",
+                    "roundNumber": 3,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 3,
+                    "position": "TR",
+                    "title": "SOUTH",
+                    "abbreviation": "S",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40715",
+                    "name": "truTV",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 78,
+                        "color": "#003087",
+                        "ncaaOrgId": 235,
+                        "seed": 7,
+                        "seoname": "florida",
+                        "nickname": "Gators",
+                        "nameShort": "Florida",
+                        "name6Char": "FLA",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 81,
+                        "color": "#041E42",
+                        "ncaaOrgId": 527,
+                        "seed": 15,
+                        "seoname": "oral-roberts",
+                        "nickname": "Golden Eagles",
+                        "nameShort": "Oral Roberts",
+                        "name6Char": "ORU",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 313,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/21/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 407,
+                "mmlVideo": false,
+                "round": {
+                    "title": "SECOND ROUND",
+                    "subtitle": "3/21-22",
+                    "roundNumber": 3,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 5,
+                    "position": "BR",
+                    "title": "MIDWEST",
+                    "abbreviation": "MW",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40723",
+                    "name": "CBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 58,
+                        "color": "#E04E39",
+                        "ncaaOrgId": 301,
+                        "seed": 1,
+                        "seoname": "illinois",
+                        "nickname": "Fighting Illini",
+                        "nameShort": "Illinois",
+                        "name6Char": "ILL",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 71,
+                        "color": "#861F41",
+                        "ncaaOrgId": 371,
+                        "seed": 8,
+                        "seoname": "loyola-chicago",
+                        "nickname": "Ramblers",
+                        "nameShort": "Loyola Chicago",
+                        "name6Char": "LOYCHI",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 314,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/21/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 407,
+                "mmlVideo": false,
+                "round": {
+                    "title": "SECOND ROUND",
+                    "subtitle": "3/21-22",
+                    "roundNumber": 3,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 5,
+                    "position": "BR",
+                    "title": "MIDWEST",
+                    "abbreviation": "MW",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40738",
+                    "name": "TBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": false,
+                        "score": 80,
+                        "color": "#DC4405",
+                        "ncaaOrgId": 528,
+                        "seed": 12,
+                        "seoname": "oregon-st",
+                        "nickname": "Beavers",
+                        "nameShort": "Oregon St.",
+                        "name6Char": "ORE ST",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": true,
+                        "score": 70,
+                        "color": "#DF4F2A",
+                        "ncaaOrgId": 521,
+                        "seed": 4,
+                        "seoname": "oklahoma-st",
+                        "nickname": "Cowboys",
+                        "nameShort": "Oklahoma St.",
+                        "name6Char": "OK ST",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 315,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/21/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 408,
+                "mmlVideo": false,
+                "round": {
+                    "title": "SECOND ROUND",
+                    "subtitle": "3/21-22",
+                    "roundNumber": 3,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 5,
+                    "position": "BR",
+                    "title": "MIDWEST",
+                    "abbreviation": "MW",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40723",
+                    "name": "CBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": false,
+                        "score": 75,
+                        "color": "#DC4405",
+                        "ncaaOrgId": 688,
+                        "seed": 11,
+                        "seoname": "syracuse",
+                        "nickname": "Orange",
+                        "nameShort": "Syracuse",
+                        "name6Char": "CUSE",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": true,
+                        "score": 72,
+                        "color": "#002855",
+                        "ncaaOrgId": 768,
+                        "seed": 3,
+                        "seoname": "west-virginia",
+                        "nickname": "Mountaineers",
+                        "nameShort": "West Virginia",
+                        "name6Char": "WVU",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 316,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/21/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 408,
+                "mmlVideo": false,
+                "round": {
+                    "title": "SECOND ROUND",
+                    "subtitle": "3/21-22",
+                    "roundNumber": 3,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 5,
+                    "position": "BR",
+                    "title": "MIDWEST",
+                    "abbreviation": "MW",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40738",
+                    "name": "TBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": false,
+                        "score": 60,
+                        "color": "#C8102E",
+                        "ncaaOrgId": 587,
+                        "seed": 10,
+                        "seoname": "rutgers",
+                        "nickname": "Scarlet Knights",
+                        "nameShort": "Rutgers",
+                        "name6Char": "RUT",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": true,
+                        "score": 63,
+                        "color": "#E51636",
+                        "ncaaOrgId": 288,
+                        "seed": 2,
+                        "seoname": "houston",
+                        "nickname": "Cougars",
+                        "nameShort": "Houston",
+                        "name6Char": "HOU",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 401,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/28/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 501,
+                "mmlVideo": false,
+                "round": {
+                    "title": "SWEET 16",
+                    "subtitle": "3/27-28",
+                    "roundNumber": 4,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 2,
+                    "position": "TL",
+                    "title": "WEST",
+                    "abbreviation": "W",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40723",
+                    "name": "CBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 83,
+                        "color": "#D51A35",
+                        "ncaaOrgId": 260,
+                        "seed": 1,
+                        "seoname": "gonzaga",
+                        "nickname": "Bulldogs",
+                        "nameShort": "Gonzaga",
+                        "name6Char": "GONZ",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 65,
+                        "color": "#0032A0",
+                        "ncaaOrgId": 169,
+                        "seed": 5,
+                        "seoname": "creighton",
+                        "nickname": "Bluejays",
+                        "nameShort": "Creighton",
+                        "name6Char": "CREIGH",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 402,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/28/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 501,
+                "mmlVideo": false,
+                "round": {
+                    "title": "SWEET 16",
+                    "subtitle": "3/27-28",
+                    "roundNumber": 4,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 2,
+                    "position": "TL",
+                    "title": "WEST",
+                    "abbreviation": "W",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40738",
+                    "name": "TBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 82,
+                        "color": "#9D2235",
+                        "ncaaOrgId": 657,
+                        "seed": 6,
+                        "seoname": "southern-california",
+                        "nickname": "Trojans",
+                        "nameShort": "USC",
+                        "name6Char": "USC",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 68,
+                        "color": "#173F35",
+                        "ncaaOrgId": 529,
+                        "seed": 7,
+                        "seoname": "oregon",
+                        "nickname": "Ducks",
+                        "nameShort": "Oregon",
+                        "name6Char": "ORE",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 403,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/28/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 502,
+                "mmlVideo": false,
+                "round": {
+                    "title": "SWEET 16",
+                    "subtitle": "3/27-28",
+                    "roundNumber": 4,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 4,
+                    "position": "BL",
+                    "title": "EAST",
+                    "abbreviation": "E",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40723",
+                    "name": "CBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 76,
+                        "color": "#041E42",
+                        "ncaaOrgId": 418,
+                        "seed": 1,
+                        "seoname": "michigan",
+                        "nickname": "Wolverines",
+                        "nameShort": "Michigan",
+                        "name6Char": "MICH",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 58,
+                        "color": "#76253A",
+                        "ncaaOrgId": 234,
+                        "seed": 4,
+                        "seoname": "florida-st",
+                        "nickname": "Seminoles",
+                        "nameShort": "Florida St.",
+                        "name6Char": "FSU",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 404,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/28/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 502,
+                "mmlVideo": false,
+                "round": {
+                    "title": "SWEET 16",
+                    "subtitle": "3/27-28",
+                    "roundNumber": 4,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 4,
+                    "position": "BL",
+                    "title": "EAST",
+                    "abbreviation": "E",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40738",
+                    "name": "TBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": false,
+                        "score": 88,
+                        "color": "#0072CE",
+                        "ncaaOrgId": 110,
+                        "seed": 11,
+                        "seoname": "ucla",
+                        "nickname": "Bruins",
+                        "nameShort": "UCLA",
+                        "name6Char": "UCLA",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": true,
+                        "score": 78,
+                        "color": "#9D2235",
+                        "ncaaOrgId": 8,
+                        "seed": 2,
+                        "seoname": "alabama",
+                        "nickname": "Crimson Tide",
+                        "nameShort": "Alabama",
+                        "name6Char": "BAMA",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 405,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/27/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 503,
+                "mmlVideo": false,
+                "round": {
+                    "title": "SWEET 16",
+                    "subtitle": "3/27-28",
+                    "roundNumber": 4,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 3,
+                    "position": "TR",
+                    "title": "SOUTH",
+                    "abbreviation": "S",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40723",
+                    "name": "CBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 62,
+                        "color": "#1B3E30",
+                        "ncaaOrgId": 51,
+                        "seed": 1,
+                        "seoname": "baylor",
+                        "nickname": "Bears",
+                        "nameShort": "Baylor",
+                        "name6Char": "BAY",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 51,
+                        "color": "#173A79",
+                        "ncaaOrgId": 739,
+                        "seed": 5,
+                        "seoname": "villanova",
+                        "nickname": "Wildcats",
+                        "nameShort": "Villanova",
+                        "name6Char": "NOVA",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 406,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/27/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 503,
+                "mmlVideo": false,
+                "round": {
+                    "title": "SWEET 16",
+                    "subtitle": "3/27-28",
+                    "roundNumber": 4,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 3,
+                    "position": "TR",
+                    "title": "SOUTH",
+                    "abbreviation": "S",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40738",
+                    "name": "TBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 72,
+                        "color": "#9D2235",
+                        "ncaaOrgId": 31,
+                        "seed": 3,
+                        "seoname": "arkansas",
+                        "nickname": "Razorbacks",
+                        "nameShort": "Arkansas",
+                        "name6Char": "ARK",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 70,
+                        "color": "#041E42",
+                        "ncaaOrgId": 527,
+                        "seed": 15,
+                        "seoname": "oral-roberts",
+                        "nickname": "Golden Eagles",
+                        "nameShort": "Oral Roberts",
+                        "name6Char": "ORU",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 407,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/27/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 504,
+                "mmlVideo": false,
+                "round": {
+                    "title": "SWEET 16",
+                    "subtitle": "3/27-28",
+                    "roundNumber": 4,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 5,
+                    "position": "BR",
+                    "title": "MIDWEST",
+                    "abbreviation": "MW",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40723",
+                    "name": "CBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 58,
+                        "color": "#861F41",
+                        "ncaaOrgId": 371,
+                        "seed": 8,
+                        "seoname": "loyola-chicago",
+                        "nickname": "Ramblers",
+                        "nameShort": "Loyola Chicago",
+                        "name6Char": "LOYCHI",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 65,
+                        "color": "#DC4405",
+                        "ncaaOrgId": 528,
+                        "seed": 12,
+                        "seoname": "oregon-st",
+                        "nickname": "Beavers",
+                        "nameShort": "Oregon St.",
+                        "name6Char": "ORE ST",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 408,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/27/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 504,
+                "mmlVideo": false,
+                "round": {
+                    "title": "SWEET 16",
+                    "subtitle": "3/27-28",
+                    "roundNumber": 4,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 5,
+                    "position": "BR",
+                    "title": "MIDWEST",
+                    "abbreviation": "MW",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40738",
+                    "name": "TBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": false,
+                        "score": 46,
+                        "color": "#DC4405",
+                        "ncaaOrgId": 688,
+                        "seed": 11,
+                        "seoname": "syracuse",
+                        "nickname": "Orange",
+                        "nameShort": "Syracuse",
+                        "name6Char": "CUSE",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": true,
+                        "score": 62,
+                        "color": "#E51636",
+                        "ncaaOrgId": 288,
+                        "seed": 2,
+                        "seoname": "houston",
+                        "nickname": "Cougars",
+                        "nameShort": "Houston",
+                        "name6Char": "HOU",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 501,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/30/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 601,
+                "mmlVideo": false,
+                "round": {
+                    "title": "ELITE 8&#174;",
+                    "subtitle": "3/29-30",
+                    "roundNumber": 5,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 2,
+                    "position": "TL",
+                    "title": "WEST",
+                    "abbreviation": "W",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40738",
+                    "name": "TBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 85,
+                        "color": "#D51A35",
+                        "ncaaOrgId": 260,
+                        "seed": 1,
+                        "seoname": "gonzaga",
+                        "nickname": "Bulldogs",
+                        "nameShort": "Gonzaga",
+                        "name6Char": "GONZ",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 66,
+                        "color": "#9D2235",
+                        "ncaaOrgId": 657,
+                        "seed": 6,
+                        "seoname": "southern-california",
+                        "nickname": "Trojans",
+                        "nameShort": "USC",
+                        "name6Char": "USC",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 502,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/30/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 601,
+                "mmlVideo": false,
+                "round": {
+                    "title": "ELITE 8&#174;",
+                    "subtitle": "3/29-30",
+                    "roundNumber": 5,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 4,
+                    "position": "BL",
+                    "title": "EAST",
+                    "abbreviation": "E",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40738",
+                    "name": "TBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 49,
+                        "color": "#041E42",
+                        "ncaaOrgId": 418,
+                        "seed": 1,
+                        "seoname": "michigan",
+                        "nickname": "Wolverines",
+                        "nameShort": "Michigan",
+                        "name6Char": "MICH",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 51,
+                        "color": "#0072CE",
+                        "ncaaOrgId": 110,
+                        "seed": 11,
+                        "seoname": "ucla",
+                        "nickname": "Bruins",
+                        "nameShort": "UCLA",
+                        "name6Char": "UCLA",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 503,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/29/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 602,
+                "mmlVideo": false,
+                "round": {
+                    "title": "ELITE 8&#174;",
+                    "subtitle": "3/29-30",
+                    "roundNumber": 5,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 3,
+                    "position": "TR",
+                    "title": "SOUTH",
+                    "abbreviation": "S",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40723",
+                    "name": "CBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 81,
+                        "color": "#1B3E30",
+                        "ncaaOrgId": 51,
+                        "seed": 1,
+                        "seoname": "baylor",
+                        "nickname": "Bears",
+                        "nameShort": "Baylor",
+                        "name6Char": "BAY",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 72,
+                        "color": "#9D2235",
+                        "ncaaOrgId": 31,
+                        "seed": 3,
+                        "seoname": "arkansas",
+                        "nickname": "Razorbacks",
+                        "nameShort": "Arkansas",
+                        "name6Char": "ARK",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 504,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "03/29/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 602,
+                "mmlVideo": false,
+                "round": {
+                    "title": "ELITE 8&#174;",
+                    "subtitle": "3/29-30",
+                    "roundNumber": 5,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 5,
+                    "position": "BR",
+                    "title": "MIDWEST",
+                    "abbreviation": "MW",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40723",
+                    "name": "CBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": false,
+                        "score": 61,
+                        "color": "#DC4405",
+                        "ncaaOrgId": 528,
+                        "seed": 12,
+                        "seoname": "oregon-st",
+                        "nickname": "Beavers",
+                        "nameShort": "Oregon St.",
+                        "name6Char": "ORE ST",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": true,
+                        "score": 67,
+                        "color": "#E51636",
+                        "ncaaOrgId": 288,
+                        "seed": 2,
+                        "seoname": "houston",
+                        "nickname": "Cougars",
+                        "nameShort": "Houston",
+                        "name6Char": "HOU",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 601,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "04/03/2021",
+                "victorGamePosition": "Top",
+                "victorBracketPositionId": 701,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FINAL FOUR&#174;",
+                    "subtitle": "4/3",
+                    "roundNumber": 6,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 6,
+                    "position": "CC",
+                    "title": "",
+                    "abbreviation": "",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40723",
+                    "name": "CBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 93,
+                        "color": "#D51A35",
+                        "ncaaOrgId": 260,
+                        "seed": 1,
+                        "seoname": "gonzaga",
+                        "nickname": "Bulldogs",
+                        "nameShort": "Gonzaga",
+                        "name6Char": "GONZ",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 90,
+                        "color": "#0072CE",
+                        "ncaaOrgId": 110,
+                        "seed": 11,
+                        "seoname": "ucla",
+                        "nickname": "Bruins",
+                        "nameShort": "UCLA",
+                        "name6Char": "UCLA",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 602,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "04/03/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": 701,
+                "mmlVideo": false,
+                "round": {
+                    "title": "FINAL FOUR&#174;",
+                    "subtitle": "4/3",
+                    "roundNumber": 6,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 6,
+                    "position": "CC",
+                    "title": "",
+                    "abbreviation": "",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40723",
+                    "name": "CBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 78,
+                        "color": "#1B3E30",
+                        "ncaaOrgId": 51,
+                        "seed": 1,
+                        "seoname": "baylor",
+                        "nickname": "Bears",
+                        "nameShort": "Baylor",
+                        "name6Char": "BAY",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 59,
+                        "color": "#E51636",
+                        "ncaaOrgId": 288,
+                        "seed": 2,
+                        "seoname": "houston",
+                        "nickname": "Cougars",
+                        "nameShort": "Houston",
+                        "name6Char": "HOU",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            },
+            {
+                "bracketId": 701,
+                "gameStateCode": 4,
+                "gamestateDisplay": "",
+                "startDate": "04/05/2021",
+                "victorGamePosition": "Bottom",
+                "victorBracketPositionId": null,
+                "mmlVideo": false,
+                "round": {
+                    "title": "CHAMPIONSHIP",
+                    "subtitle": "4/5",
+                    "roundNumber": 7,
+                    "__typename": "Round"
+                },
+                "region": {
+                    "sectionId": 6,
+                    "position": "CC",
+                    "title": "",
+                    "abbreviation": "",
+                    "__typename": "RegionSection"
+                },
+                "broadcaster": {
+                    "id": "40723",
+                    "name": "CBS",
+                    "__typename": "Broadcaster"
+                },
+                "teams": [
+                    {
+                        "isTop": true,
+                        "isHome": true,
+                        "score": 70,
+                        "color": "#D51A35",
+                        "ncaaOrgId": 260,
+                        "seed": 1,
+                        "seoname": "gonzaga",
+                        "nickname": "Bulldogs",
+                        "nameShort": "Gonzaga",
+                        "name6Char": "GONZ",
+                        "isWinner": false,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    },
+                    {
+                        "isTop": false,
+                        "isHome": false,
+                        "score": 86,
+                        "color": "#1B3E30",
+                        "ncaaOrgId": 51,
+                        "seed": 1,
+                        "seoname": "baylor",
+                        "nickname": "Bears",
+                        "nameShort": "Baylor",
+                        "name6Char": "BAY",
+                        "isWinner": true,
+                        "textOverride": null,
+                        "__typename": "ChampionshipTeam"
+                    }
+                ],
+                "__typename": "ChampionshipGame"
+            }
+        ]
+    }
+}

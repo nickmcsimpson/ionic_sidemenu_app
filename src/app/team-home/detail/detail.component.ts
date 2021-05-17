@@ -85,7 +85,7 @@ export class DetailComponent implements OnInit {
 
   getScoreDisplayBadgeColor(game) {
     if (game.scoreDisplay === '') {
-      return 'primary'
+      return 'medium'
     } else {
       return game.scoreDisplay.indexOf('W:') === 0 ? 'success' : 'danger';
     }    
