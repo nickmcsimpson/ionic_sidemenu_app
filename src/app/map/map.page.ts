@@ -1,16 +1,18 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { LoadingController } from '@ionic/angular';
-import { Game, TournamentData, TournamentsService } from '../services/tournaments.service';
+import { Location, Game, TournamentData, TournamentsService } from '../services/tournaments.service';
 
 @Component({
-  selector: 'app-game',
-  templateUrl: './game.page.html',
-  styleUrls: ['./game.page.scss'],
+  selector: 'app-map',
+  templateUrl: './map.page.html',
+  styleUrls: ['./map.page.scss'],
 })
-export class GamePage implements OnInit {
+export class MapPage implements OnInit {
   public tournamentData: TournamentData;
   public game: Game;
+  public location: Location;
+  public map: any;
 
   constructor(private activatedRoute: ActivatedRoute,
     private tournamentsService: TournamentsService, 
@@ -33,16 +35,17 @@ export class GamePage implements OnInit {
     this.tournamentsService.getTournamentData(tournament_id).subscribe((data: TournamentData) => {
       this.tournamentData = data;
       this.game = data.games.find(game => game.id == game_id);
+      this.location = this.tournamentData.locations[this.game.locationId];
+
+      this.map = {
+        lat: this.location.latitude,
+        lng: this.location.longitude,
+        zoom: 12,
+        markerLabel: this.game.location
+      };
+      
       loading.dismiss();
     });
-  }
-
-  goToDirections() {
-    // placeholder
-  }
-
-  isWinner(score1, score2) {
-    return Number(score1) > Number(score2) ? 'success' : 'danger'
   }
 
 }

@@ -22,6 +22,10 @@ const routes: Routes = [
   {
     path: 'tournaments/:tournament_id/team-home/:team_id',
     loadChildren: () => import('./team-home/team-home.module').then( m => m.TeamHomePageModule)
+  },
+  {
+    path: 'tournaments/:tournament_id/map/:game_id',
+    loadChildren: () => import('./map/map.module').then( m => m.MapPageModule)
   }
 ];
 

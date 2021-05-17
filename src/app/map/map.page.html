@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title *ngIf="game">{{ game.team1 + ' vs ' + game.team2 }} - {{ game.location }}</ion-title>
+    <ion-buttons slot="end">
+      <ion-button [routerLink]="['/teams/My Teams']">
+        <ion-icon name="home"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <agm-map *ngIf="map"
+    [latitude]="map.lat" [longitude]="map.lng" [zoom]="map.zoom">
+    <agm-marker [latitude]="map.lat" [longitude]="map.lng" [label]="map.markerLabel">
+      <agm-info-window>
+        <p class="windowText">This is the location of the game: <strong>{{ map.markerLabel }}</strong></p>
+      </agm-info-window>
+    </agm-marker>
+  </agm-map>
+
+</ion-content>
