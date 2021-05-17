@@ -37,4 +37,16 @@ export class GamePage implements OnInit {
     });
   }
 
+  goToDirections() {
+    // placeholder
+  }
+
+  goToMap() {
+    // placeholder
+  }
+
+  isWinner(score1, score2) {
+    return Number(score1) > Number(score2) ? 'success' : 'danger'
+  }
+
 }
