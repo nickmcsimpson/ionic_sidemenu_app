@@ -13,6 +13,7 @@ export class AppComponent {
     { title: 'My Teams', url: '/teams/My Teams', icon: 'heart' },
     { title: 'Tournaments', url: '/tournament', icon: 'git-branch' },
     { title: 'All Teams', url: '/teams/All', icon: 'list' },
+    { title: 'Native Plugins', url: '/plugins', icon: 'apps'},
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor(private userSettings: UserSettingsService) {

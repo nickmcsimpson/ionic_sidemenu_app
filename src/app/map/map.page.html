@@ -13,6 +13,13 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
+
+  <ion-fab vertical="bottom" horizontal="left" slot="fixed">
+    <ion-fab-button (click)="goToDirections()">
+      <ion-icon name="navigate" slot="icon-only"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
   <agm-map *ngIf="map"
     [latitude]="map.lat" [longitude]="map.lng" [zoom]="map.zoom">
     <agm-marker [latitude]="map.lat" [longitude]="map.lng" [label]="map.markerLabel">

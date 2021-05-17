@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { IonicStorageModule } from '@ionic/storage-angular';
 import { UserSettingsService } from './services/user-settings.service';
+import { Vibration } from '@ionic-native/vibration/ngx';
 
 const appInitializerFn = (userSettings: UserSettingsService) => {
   return () => {
@@ -25,7 +26,9 @@ const appInitializerFn = (userSettings: UserSettingsService) => {
     useFactory: appInitializerFn,
     multi: true,
     deps: [UserSettingsService]
-  }],
+  },
+  Vibration
+],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

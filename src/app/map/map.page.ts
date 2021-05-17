@@ -3,6 +3,8 @@ import { ActivatedRoute } from '@angular/router';
 import { LoadingController } from '@ionic/angular';
 import { Location, Game, TournamentData, TournamentsService } from '../services/tournaments.service';
 
+
+declare var window: any;
 @Component({
   selector: 'app-map',
   templateUrl: './map.page.html',
@@ -43,9 +45,15 @@ export class MapPage implements OnInit {
         zoom: 12,
         markerLabel: this.game.location
       };
-      
+
       loading.dismiss();
     });
+  }
+
+  goToDirections() {
+    let location = this.tournamentData.locations[this.game.locationId];
+    // Geo location syntax
+    window.location = `geo:${location.latitude},${location.longitude};u=35`
   }
 
 }

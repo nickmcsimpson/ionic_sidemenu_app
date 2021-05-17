@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { LoadingController } from '@ionic/angular';
 import { Game, TournamentData, TournamentsService } from '../services/tournaments.service';
 
+declare var window: any;
 @Component({
   selector: 'app-game',
   templateUrl: './game.page.html',
@@ -38,7 +39,9 @@ export class GamePage implements OnInit {
   }
 
   goToDirections() {
-    // placeholder
+    let location = this.tournamentData.locations[this.game.locationId];
+    // Geo location syntax
+    window.location = `geo:${location.latitude},${location.longitude};u=35`
   }
 
   isWinner(score1, score2) {
