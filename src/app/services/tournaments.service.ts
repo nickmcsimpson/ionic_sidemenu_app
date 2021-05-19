@@ -1,14 +1,78 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import {BehaviorSubject, combineLatest, from, Observable, of, Subject} from 'rxjs';
+import {filter, map, mergeMap, shareReplay, switchMap, tap} from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
 })
 export class TournamentsService {
   private baseUrl = 'https://elite-schedule-app-f4e3f-default-rtdb.firebaseio.com'
-  private currentTournament: Tournament;
+  // private currentTournament: Tournament;
   // private tournaments: any = [];
+
+  // Replacing all the 'get' methods with some observables
+  tournaments$ = this.http.get<Tournament[]>(`${this.baseUrl}/tournaments.json`, {responseType: 'json'})
+    .pipe(
+      tap(data => console.log('Tournaments', JSON.stringify(data))),
+      shareReplay(1)
+    );
+
+  allTournamentsData$ = this.http.get<TournamentData[]>(`${this.baseUrl}/tournaments-data.json`, {responseType: 'json'})
+    .pipe(
+      tap(data => console.log('All Tournaments Data', JSON.stringify(data))),
+      shareReplay(1)
+    );
+
+  tournamentsWithData$ = combineLatest([
+    this.tournaments$,
+    this.allTournamentsData$,
+  ]).pipe(
+    map(([tournaments, allTournamentsData]) =>
+      tournaments.map(tourney => ({
+        ...tourney,
+        data: allTournamentsData[tourney.id]
+      }) as Tournament)
+    )
+  );
+
+  // tournamentData$ = this.http.get<TournamentData>(`${this.baseUrl}/tournaments-data/${tourneyId}.json`, {responseType: 'json'})
+  // Need to fetch data for selected tourney
+  private tournamentSelectedSubject = new Subject<string>();
+  tournamentSelectedAction$ = this.tournamentSelectedSubject.asObservable();
+
+  selectedTournament$ = combineLatest([
+    this.tournamentsWithData$,
+    this.tournamentSelectedAction$,
+  ]).pipe(
+      map(([tournaments, selectedTournamentId]) =>
+        tournaments.find(tourney => tourney.id === selectedTournamentId)
+      ),
+      tap(tourney => console.log('selectedTournament', tourney)),
+    );
+
+  private teamSelectedSubject = new Subject<number>();
+  teamSelectedAction$ = this.teamSelectedSubject.asObservable();
+
+  selectedTeam$ = combineLatest([
+    this.selectedTournament$,
+    this.teamSelectedAction$,
+  ]).pipe(
+    map(([tournament, selectedTeamId]) =>
+      tournament.data.teams.find(team => team.id === selectedTeamId)
+    ),
+    tap(team => console.log('selectedTeam', team)),
+  );
+
+  selectedTeamStanding$ = combineLatest([
+    this.selectedTournament$,
+    this.teamSelectedAction$,
+  ]).pipe(
+    map(([tournament, selectedTeamId]) =>
+      tournament.data.standings.find(standing => standing.teamId === selectedTeamId)
+    ),
+    tap(team => console.log('selectedTeam', team)),
+  );
 
   constructor(public http: HttpClient) {}
 
@@ -31,11 +95,20 @@ export class TournamentsService {
   getTournamentData(tourneyId): Observable<any> {
     return this.http.get<TournamentData>(`${this.baseUrl}/tournaments-data/${tourneyId}.json`, {responseType: 'json'})
   }
+
+  selectedTournamentChanged(selectedTourneyId: string): void {
+    this.tournamentSelectedSubject.next(selectedTourneyId);
+  }
+
+  selectedTeamChanged(selectedTeamId: number): void{
+    this.teamSelectedSubject.next(selectedTeamId);
+  }
 }
 
 export interface Tournament {
-  id: number;
+  id: string;
   name: string;
+  data?: TournamentData;
 }
 
 export interface TournamentData {
@@ -76,7 +149,7 @@ export interface Standing {
   winningPct: string;
 }
 export interface Team {
-  id: number | string;
+  id: number;
   coach: string;
   division: string;
   name: string;

@@ -6,16 +6,18 @@ import { Tournament, TournamentsService } from '../services/tournaments.service'
   templateUrl: './tournament.page.html',
   styleUrls: ['./tournament.page.scss'],
 })
-export class TournamentPage implements OnInit {
-  public tournaments: Tournament[];
+export class TournamentPage  {
+  // public tournaments: Tournament[];
+  tournaments$ = this.tournamentService.tournamentsWithData$;
 
   constructor(private tournamentService: TournamentsService) { }
 
-  ngOnInit() {
-    this.tournamentService.getTournaments().subscribe(
-      (data: Tournament[]) => this.tournaments = data
-    );
-  }
+  // Not necessary using observables
+  // ngOnInit() { // implements OnInit
+    // this.tournamentService.getTournaments().subscribe(
+    //   (data: Tournament[]) => this.tournaments = data
+    // );
+  // }
 
   // List of other lifecycle events
   ionViewWillEnter() {}

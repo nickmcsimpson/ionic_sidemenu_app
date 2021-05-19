@@ -15,7 +15,7 @@ export class StandingComponent implements OnInit {
   public allStandings: any[];
   public standings: any[];
   public teamRank: number;
-  public divisionFilter: string = 'division'
+  public divisionFilter: string = 'division';
 
   ngOnInit() {
     this.allStandings = _.chain(this.tournamentData.standings)
@@ -28,10 +28,10 @@ export class StandingComponent implements OnInit {
   }
 
   filterDivision() {
-    if (this.divisionFilter === "all") {
+    if (this.divisionFilter === 'all') {
       this.standings = this.allStandings;
     } else {
-      this.standings = _.filter(this.allStandings, { 'divisionName': this.team.division });
+      this.standings = _.filter(this.allStandings, { divisionName: this.team.division });
     }
   }
 
