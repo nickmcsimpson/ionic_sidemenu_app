@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { TournamentPageRoutingModule } from './tournament-routing.module';
+import { TournamentHomePageRoutingModule } from './tournament-home-routing.module';
 
-import { TournamentPage } from './tournament.page';
+import { TournamentHomePage } from './tournament-home.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    TournamentPageRoutingModule
+    TournamentHomePageRoutingModule
   ],
-  declarations: [TournamentPage]
+  declarations: [TournamentHomePage]
 })
-export class TournamentPageModule {}
+export class TournamentHomePageModule {}

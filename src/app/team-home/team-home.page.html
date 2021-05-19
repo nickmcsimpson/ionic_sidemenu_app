@@ -1,16 +1,6 @@
-<ion-header>
+<ion-header *ngIf="vm$ | async as vm">
+  <app-page-header [headerTitle]="vm.team.name"></app-page-header>
   <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-back-button></ion-back-button>
-    </ion-buttons>
-    <ion-title *ngIf="vm$ | async as vm">{{ vm.tournament.name }} - {{ vm.team.name }}</ion-title>
-    <ion-buttons slot="end">
-      <ion-button [routerLink]="['/teams/My Teams']">
-        <ion-icon name="home"></ion-icon>
-      </ion-button>
-    </ion-buttons>
-  </ion-toolbar>
-  <ion-toolbar *ngIf="vm$ | async as vm">
     <ion-segment (ionChange)="segmentChanged($event)" [value]="vm.segment">
       <ion-segment-button value="details">
         Details
@@ -29,7 +19,5 @@
     <app-team-detail *ngIf="vm.segment === 'details'" [team]="vm.team" [teamStanding]="vm.standing" [tournament]="vm.tournament"></app-team-detail>
     <app-team-standing *ngIf="vm.segment === 'standings'" [standing]="vm.standing" [team]="vm.team" [tournamentData]="vm.tournament.data"></app-team-standing>
   </div>
-
-
 </ion-content>
 

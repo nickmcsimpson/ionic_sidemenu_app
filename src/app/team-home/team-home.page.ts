@@ -78,7 +78,7 @@ export class TeamHomePage implements OnInit {
 
   refreshAll(refresher) {
     // This pulls down the updated information but the screen isn't populated.
-    // this.loadTeam(this.tournamentData.tournament.id, this.team.id, refresher);
+    // this.loadTeam(this.tournamentData.tournaments.id, this.team.id, refresher);
   }
 
 }

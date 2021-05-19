@@ -22,7 +22,7 @@ const appInitializerFn = (userSettings: UserSettingsService) => {
   declarations: [AppComponent],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, HttpClientModule, IonicStorageModule.forRoot()],
-  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }, UserSettingsService,
+  providers: [{provide: RouteReuseStrategy, useClass: IonicRouteStrategy}, UserSettingsService,
     {
       provide: APP_INITIALIZER,
       useFactory: appInitializerFn,

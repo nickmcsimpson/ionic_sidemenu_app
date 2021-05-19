@@ -13,13 +13,13 @@ import { Subject } from 'rxjs';
   styleUrls: ['./teams.page.scss'],
 })
 export class TeamsPage implements OnInit {
-  public title: string;
+  public title = "My Teams";
   public isTournament: boolean = false;
   // List of Unique List pages
   public teams_identifier_list = [
-    'My Teams',
+    'MyTeams',
     'All Teams',
-  ]  
+  ];
   public favorites = [];
 
   // For Tournaments
@@ -29,23 +29,14 @@ export class TeamsPage implements OnInit {
   public allTeamDivisions: any[];
   public queryText: string;
 
-  constructor(private activatedRoute: ActivatedRoute, private loadingController: LoadingController, 
+  constructor(private activatedRoute: ActivatedRoute, private loadingController: LoadingController,
     public tournamentsService: TournamentsService, private userSettings: UserSettingsService) { }
 
   ngOnInit() {
-    const identifier = this.activatedRoute.snapshot.paramMap.get('id');
-
     // Use event handler to watch updates:
     // This doesn't seem to have 'this' context and can't update anything
     // const searchbar = document.querySelector('ion-searchbar');
     // searchbar.addEventListener('ionInput', this.updateTeams);
-
-    if (this.teams_identifier_list.includes(identifier)) {
-      this.title = identifier;
-      // Set Favorites
-    } else { // Is Tournament ID:
-      this.loadTournamentData(identifier);
-    }
   }
 
   ionViewDidEnter() {
@@ -58,7 +49,7 @@ export class TeamsPage implements OnInit {
     });
 
     await loading.present();
-    
+
     this.tournamentsService.getTournamentData(identifier).subscribe((data: TournamentData) => {
       this.isTournament = true;
       this.data = data;

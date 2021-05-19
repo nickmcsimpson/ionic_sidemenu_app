@@ -3,11 +3,11 @@ import { Tournament, TournamentsService } from '../services/tournaments.service'
 
 @Component({
   selector: 'app-tournament',
-  templateUrl: './tournament.page.html',
-  styleUrls: ['./tournament.page.scss'],
+  templateUrl: './tournaments.page.html',
+  styleUrls: ['./tournaments.page.scss'],
 })
-export class TournamentPage  {
-  // public tournaments: Tournament[];
+export class TournamentsPage {
+  title: 'Tournaments';
   tournaments$ = this.tournamentService.tournamentsWithData$;
 
   constructor(private tournamentService: TournamentsService) { }

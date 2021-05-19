@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { TeamsPageRoutingModule } from './teams-routing.module';
+import { TournamentPageRoutingModule } from './tournaments-routing.module';
 
-import { TeamsPage } from './teams.page';
+import { TournamentsPage } from './tournaments.page';
 import {PageHeaderComponent} from '../components/page-header/page-header.component';
 
 @NgModule({
@@ -14,8 +14,8 @@ import {PageHeaderComponent} from '../components/page-header/page-header.compone
     CommonModule,
     FormsModule,
     IonicModule,
-    TeamsPageRoutingModule
+    TournamentPageRoutingModule
   ],
-  declarations: [TeamsPage, PageHeaderComponent]
+  declarations: [TournamentsPage, PageHeaderComponent]
 })
-export class TeamsPageModule {}
+export class TournamentPageModule {}

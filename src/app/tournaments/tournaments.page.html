@@ -1,0 +1,13 @@
+<ion-header>
+  <app-page-header headerTitle="Tournaments"></app-page-header>
+</ion-header>
+
+<ion-content>
+  <ion-list *ngIf="tournaments$ | async as tournaments">
+    <ion-item *ngFor="let tmnt of tournaments"
+    [routerLink]="[tmnt.id]">
+      <ion-label class="ion-text-center">{{ tmnt.name }}</ion-label>
+    </ion-item>
+  </ion-list>
+
+</ion-content>

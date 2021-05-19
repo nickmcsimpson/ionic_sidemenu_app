@@ -75,18 +75,6 @@ export class TournamentsService {
   );
 
   constructor(public http: HttpClient) {}
-
-  // refreshTournaments() {
-  //   fetch(this.baseUrl+'tournaments.json').then(res => {
-  //     debugger;
-  //     this.tournaments = res.json()
-  //   });
-  // }
-
-  // async getTournaments() {
-  //   const res = await fetch(`${this.baseUrl}/tournaments.json`);
-  //   return await res.json();
-  // }
   getTournaments() { //Should be an observable
     return this.http.get<Tournament[]>(`${this.baseUrl}/tournaments.json`, {responseType: 'json'});
   }

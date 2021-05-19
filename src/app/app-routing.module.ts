@@ -8,7 +8,7 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'teams/:id',
+    path: 'MyTeams',
     loadChildren: () => import('./teams/teams.module').then( m => m.TeamsPageModule)
   },
   {
@@ -16,8 +16,8 @@ const routes: Routes = [
     loadChildren: () => import('./game/game.module').then( m => m.GamePageModule)
   },
   {
-    path: 'tournament',
-    loadChildren: () => import('./tournament/tournament.module').then( m => m.TournamentPageModule)
+    path: 'tournaments',
+    loadChildren: () => import('./tournaments/tournaments.module').then(m => m.TournamentPageModule)
   },
   {
     path: 'tournaments/:tournament_id/team-home/:team_id',
@@ -30,6 +30,10 @@ const routes: Routes = [
   {
     path: 'plugins',
     loadChildren: () => import('./plugins/plugins.module').then( m => m.PluginsPageModule)
+  },
+  {
+    path: 'tournaments/:tournament_id',
+    loadChildren: () => import('./tournament-home/tournament-home.module').then( m => m.TournamentHomePageModule)
   }
 ];
 

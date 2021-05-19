@@ -10,8 +10,8 @@ import { UserSettingsService } from './services/user-settings.service';
 export class AppComponent {
   public favoriteTeams: any[];
   public appPages = [
-    { title: 'My Teams', url: '/teams/My Teams', icon: 'heart' },
-    { title: 'Tournaments', url: '/tournament', icon: 'git-branch' },
+    { title: 'My Teams', url: '/MyTeams', icon: 'heart' },
+    { title: 'Tournaments', url: '/tournaments', icon: 'git-branch' },
     { title: 'All Teams', url: '/teams/All', icon: 'list' },
     { title: 'Native Plugins', url: '/plugins', icon: 'apps'},
   ];

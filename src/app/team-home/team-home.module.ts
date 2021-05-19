@@ -9,6 +9,7 @@ import { TeamHomePageRoutingModule } from './team-home-routing.module';
 import { TeamHomePage } from './team-home.page';
 import { DetailComponent } from './detail/detail.component';
 import { StandingComponent } from './standing/standing.component';
+import {PageHeaderComponent} from '../components/page-header/page-header.component';
 
 @NgModule({
   imports: [
@@ -17,6 +18,6 @@ import { StandingComponent } from './standing/standing.component';
     IonicModule,
     TeamHomePageRoutingModule
   ],
-  declarations: [TeamHomePage, DetailComponent, StandingComponent]
+  declarations: [TeamHomePage, DetailComponent, StandingComponent, PageHeaderComponent]
 })
 export class TeamHomePageModule {}
