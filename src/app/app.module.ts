@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { IonicStorageModule } from '@ionic/storage-angular';
 import { UserSettingsService } from './services/user-settings.service';
 import { Vibration } from '@ionic-native/vibration/ngx';
+import {TournamentsService} from './services/tournaments.service';
 
 const appInitializerFn = (userSettings: UserSettingsService) => {
   return () => {
@@ -21,14 +22,16 @@ const appInitializerFn = (userSettings: UserSettingsService) => {
   declarations: [AppComponent],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, HttpClientModule, IonicStorageModule.forRoot()],
-  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }, UserSettingsService, {
-    provide: APP_INITIALIZER,
-    useFactory: appInitializerFn,
-    multi: true,
-    deps: [UserSettingsService]
-  },
-  Vibration
-],
+  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }, UserSettingsService,
+    {
+      provide: APP_INITIALIZER,
+      useFactory: appInitializerFn,
+      multi: true,
+      deps: [UserSettingsService]
+    },
+    Vibration,
+    TournamentsService
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

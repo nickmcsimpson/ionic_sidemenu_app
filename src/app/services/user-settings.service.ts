@@ -37,7 +37,7 @@ export class UserSettingsService {
   }
 
   isFavoriteTeam(teamId: string): Promise<boolean> {
-    return this._storage.get(teamId).then(value => value ? true : false);
+    return this._storage.get(teamId).then(value => !!value);
   }
 
   getAllFavorites() {

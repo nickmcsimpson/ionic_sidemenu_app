@@ -1,5 +1,5 @@
-import {Component, Input, OnChanges, OnInit} from '@angular/core';
-import { Game, Standing, Team, TournamentData } from 'src/app/services/tournaments.service';
+import {ChangeDetectionStrategy, Component, Input, OnChanges, OnInit} from '@angular/core';
+import {Game, Standing, Team, Tournament, TournamentsService} from 'src/app/services/tournaments.service';
 
 import * as _ from 'lodash';
 import * as moment from 'moment';
@@ -10,16 +10,17 @@ import { UserSettingsService } from 'src/app/services/user-settings.service';
   selector: 'app-team-detail',
   templateUrl: './detail.component.html',
   styleUrls: ['./detail.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class DetailComponent implements OnInit, OnChanges {
   @Input() team: Team;
-  @Input() tournamentData: TournamentData;
-  public teamStanding: Standing;
+  @Input() tournament: Tournament;
+  @Input() teamStanding: Standing;
   public games: any[];
   public allGames: any[];
   public dateFilter: string; // I don't like this because it's hard to tell where to click on Android
-  public useDateFilter: boolean = false;
-  public isFollowing: boolean = false;
+  public useDateFilter = false;
+  public isFollowing = false;
 
   constructor(
     private alertController: AlertController,
@@ -37,7 +38,7 @@ export class DetailComponent implements OnInit, OnChanges {
 
   setData() {
     // Filter team data from tourney info
-    this.games = _.chain(this.tournamentData.games)
+    this.games = _.chain(this.tournament.data.games)
         .filter((g: Game) => g.team1Id === this.team.id || g.team2Id === this.team.id)
         .map((g: Game) => {
           const isTeam1 = (g.team1Id === this.team.id);
@@ -50,11 +51,10 @@ export class DetailComponent implements OnInit, OnChanges {
             location: g.location,
             scoreDisplay,
             homeAway: (isTeam1 ? 'vs. ' : 'at ')
-          }
+          };
         })
         .value();
     this.allGames = this.games;
-    this.teamStanding = _.find(this.tournamentData.standings, { teamId: this.team.id }) as Standing;
 
     this.userSetting.isFavoriteTeam(this.team.id.toString()).then(value => this.isFollowing = value);
   }
@@ -66,7 +66,7 @@ export class DetailComponent implements OnInit, OnChanges {
       const winIndicator = teamScore > opponentScore ? 'W: ' : 'L: ';
       return winIndicator + teamScore + '-' + opponentScore;
     } else {
-      return "";
+      return '';
     }
   }
 
@@ -114,7 +114,7 @@ export class DetailComponent implements OnInit, OnChanges {
       await confirm.present();
     } else {
       this.isFollowing = true;
-      this.userSetting.favoriteTeam(this.team, this.tournamentData.tournament.id, this.tournamentData.tournament.name);
+      this.userSetting.favoriteTeam(this.team, this.tournament.id, this.tournament.name);
 
       const toast = await this.toastController.create({
         message: 'You have followed this team.',

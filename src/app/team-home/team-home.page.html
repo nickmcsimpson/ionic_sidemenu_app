@@ -26,7 +26,7 @@
     <ion-refresher-content></ion-refresher-content>
   </ion-refresher>
   <div *ngIf="vm$ | async as vm">
-    <app-team-detail *ngIf="vm.segment === 'details'" [team]="vm.team" [tournamentData]="vm.tournament.data"></app-team-detail>
+    <app-team-detail *ngIf="vm.segment === 'details'" [team]="vm.team" [teamStanding]="vm.standing" [tournament]="vm.tournament"></app-team-detail>
     <app-team-standing *ngIf="vm.segment === 'standings'" [standing]="vm.standing" [team]="vm.team" [tournamentData]="vm.tournament.data"></app-team-standing>
   </div>
 

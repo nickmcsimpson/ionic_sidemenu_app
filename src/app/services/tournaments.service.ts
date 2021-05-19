@@ -20,7 +20,7 @@ export class TournamentsService {
 
   allTournamentsData$ = this.http.get<TournamentData[]>(`${this.baseUrl}/tournaments-data.json`, {responseType: 'json'})
     .pipe(
-      tap(data => console.log('All Tournaments Data', JSON.stringify(data))),
+      // tap(data => console.log('All Tournaments Data', JSON.stringify(data))),
       shareReplay(1)
     );
 
@@ -66,12 +66,12 @@ export class TournamentsService {
 
   selectedTeamStanding$ = combineLatest([
     this.selectedTournament$,
-    this.teamSelectedAction$,
+    this.selectedTeam$,
   ]).pipe(
-    map(([tournament, selectedTeamId]) =>
-      tournament.data.standings.find(standing => standing.teamId === selectedTeamId)
+    map(([tournament, team]) =>
+      tournament.data.standings.find(standing => standing.teamId === team.id)
     ),
-    tap(team => console.log('selectedTeam', team)),
+    tap(team => console.log('selectedTeamStanding', team)),
   );
 
   constructor(public http: HttpClient) {}
